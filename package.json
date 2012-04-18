@@ -7,6 +7,10 @@
     "jade": ">= 0.0.1"
   },
   "devDependencies": {
-    "mocha": "1.0.x"
+    "mocha": "*"
+  },
+  "scripts": {
+    "prepublish" : "npm prune",
+    "test": "make test"
   }
 }
