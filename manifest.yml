@@ -1,0 +1,16 @@
+--- 
+applications: 
+  .: 
+    name: newnewtab
+    framework: 
+      name: node
+      info: 
+        mem: 64M
+        description: Node.js Application
+        exec: 
+    url: ${name}.${target-base}
+    mem: 64M
+    instances: 1
+    services: 
+      redis-newnewtab: 
+        type: redis
