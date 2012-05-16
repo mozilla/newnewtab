@@ -1,5 +1,8 @@
-var express = require('express')
-  , assert = require('assert');
+// an example to how to use BDD (scrapbook for zalun - will be removed
+// soon)
+
+var express = require('express');
+var assert = require('assert');
 
 describe('BDDInterface', function(){
   var some = {};
