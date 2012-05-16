@@ -2,13 +2,27 @@
   "name": "newnewtab",
   "version": "0.0.1",
   "private": true,
+  "engines": {
+    "node": ">= 0.6.5",
+    "npm": "1.1.x"
+  },
   "dependencies": {
+    "client-sessions": "0.0.3",
+    "connect": "1.7.2",
+    "connect-cachify": "0.0.8",
+    "ejs": ">= 0.7.0",
     "express": "2.5.x",
-    "jade": ">= 0.0.1",
-    "ejs": "*"
+    "i18n-abide": "git://github.com/mozilla/i18n-abide.git",
+    "jade": "0.22.1",
+    "less": ">= 1.3.0",
+    "request": "2.9.153",
+    "uglify-js": "1.0.6",
+    "uglifycss": "0.0.5"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "0.14.1",
+    "nock": "0.10.7",
+    "should": ">= 0.0.1"
   },
   "scripts": {
     "prepublish" : "npm prune",
