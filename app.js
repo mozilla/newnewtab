@@ -3,6 +3,8 @@ var express = require('express');
 var configurations = module.exports;
 var app = express.createServer();
 var settings;
+var redis = require("redis");
+var client = redis.createClient();
 
 try {
   settings = require('./settings-local')(app, configurations, express);
@@ -11,7 +13,13 @@ try {
   settings = require('./settings')(app, configurations, express);
 }
 
+// select the db
+client.select(app.set('newnewtab-redis'), function(errDb, res) {
+  console.log('PROD/DEV database connection status: ', res);
+});
+
 // Routes
+// TODO: pass client to the routes if redis needed
 require('./routes')(app);
 require('./routes/auth')(app, settings);
 
