@@ -1,9 +1,15 @@
 "use strict";
-
 var express = require('express');
 var configurations = module.exports;
 var app = express.createServer();
-var settings = require('./settings')(app, configurations, express);
+var settings;
+
+try {
+  settings = require('./settings-local')(app, configurations, express);
+} catch (e) {
+  console.log('No local settings (settings-local.js) found; using defaults.');
+  settings = require('./settings')(app, configurations, express);
+}
 
 // Routes
 require('./routes')(app);
