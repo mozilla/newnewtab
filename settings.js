@@ -13,9 +13,9 @@ module.exports = function(app, configurations, express) {
   };
 
   // Configuration
-  app.configure(function(){
+  app.configure(function() {
     app.use(i18n.abide({
-      supported_languages: ['en-US', 'de', 'es', 'db-LB', 'it-CH'],
+      supported_languages: ['en-US'],
       default_lang: 'en-US',
       debug_lang: 'it-CH', // See: https://github.com/mozilla/i18n-abide#debugging-and-testing
       locale_directory: 'locale'
@@ -28,7 +28,7 @@ module.exports = function(app, configurations, express) {
     app.use(express.compiler({ src:  __dirname + '/public', enable: ['less'] }));
     app.use(express.static(__dirname + '/public'));
     app.use(clientSessions({
-      cookieName: 'session_persona',
+      cookieName: 'session_newnewtab',
       secret: 'secret', // MUST be set
       // true session duration:
       // will expire after duration (ms)
@@ -40,11 +40,11 @@ module.exports = function(app, configurations, express) {
     app.use(app.router);
   });
 
-  app.configure('development, test', function(){
+  app.configure('development, test', function() {
     app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
   });
 
-  app.configure('production', function(){
+  app.configure('production', function() {
     app.use(express.errorHandler());
   });
 
