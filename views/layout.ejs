@@ -15,9 +15,9 @@
 
   <footer>
     <% if (session.email) { %>
-      <a href="/logout"><% _('Log out') %></a>
+      <a href="/logout"><% gettext('Log out') %></a>
     <% } else { %>
-      <a href="#login" id="login"><% _('Sign in with Persona') %></a>
+      <a href="#login" id="login"><% gettext('Sign in with Persona') %></a>
       <form method="POST" action="/login" class="login">
         <input type="hidden" name="bid_assertion" value="1">
       </form>
@@ -25,8 +25,6 @@
   </footer>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <script src="https://browserid.org/include.js"></script>
   <script src="../javascripts/main.js"></script>
-  <script src="../javascripts/less.js"></script>
 </body>
 </html>
