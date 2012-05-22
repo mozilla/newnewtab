@@ -18,7 +18,7 @@
     "request": "2.9.153",
     "uglify-js": "1.0.6",
     "uglifycss": "0.0.5",
-	"redis": "0.7.2"
+    "redis": "0.7.2"
   },
   "devDependencies": {
     "mocha": "0.14.1",
