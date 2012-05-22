@@ -40,6 +40,17 @@ module.exports = function(app, configurations, express) {
     app.use(app.router);
   });
 
+  app.configure('development', function() {
+    app.set('newnewtab-redis', 7);
+    app.set('newnewtab-redis-test', 6);
+  });
+
+  app.configure('production', function() {
+    app.use(express.errorHandler());
+    app.set('newnewtab-redis', 0);
+    app.set('newnewtab-redis-test', 6);
+  });
+
   app.configure('development, test', function() {
     app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
   });
