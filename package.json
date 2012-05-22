@@ -1,9 +1,9 @@
 {
   "name": "newnewtab",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "engines": {
-    "node": ">= 0.6.5",
+    "node": ">= 0.6.17",
     "npm": "1.1.x"
   },
   "dependencies": {
