@@ -28,12 +28,11 @@ Install
 Settings
 ########
 
-By default, settings are in `settings.js`. You can override settings in there
+By default, settings are in ``settings.js``. You can override settings in there
 with environment variables, but if you want to customize lots of settings
 locally (either for development or deployment), you can make a copy of
-`settings.js` (`cp setting.js settings-local.js`) and that file will be read
-instead. The two settings are not merged (at least for now) --
-`settings-local.js` is simply read instead.
+``settings-local.js-dist`` (``cp setting-local.js-dist settings-local.js``) 
+and that file will be read instead. 
 
-`settings-local.js` is not version-controlled; feel free to edit it to your
+i`settings-local.js`` is not version-controlled; feel free to edit it to your
 heart's content.
