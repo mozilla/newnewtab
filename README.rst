@@ -34,5 +34,5 @@ locally (either for development or deployment), you can make a copy of
 ``settings-local.js-dist`` (``cp setting-local.js-dist settings-local.js``) 
 and that file will be read instead. 
 
-i`settings-local.js`` is not version-controlled; feel free to edit it to your
+``settings-local.js`` is not version-controlled; feel free to edit it to your
 heart's content.
