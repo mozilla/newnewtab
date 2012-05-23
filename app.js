@@ -28,8 +28,7 @@ client.select(conf.get('redis:dbId'), function(errDb, res) {
 
 // Routes
 // TODO: pass client to the routes if redis needed
-require('./routes')(app);
-require('./routes/auth')(app, settings);
+require('./routes')(app, client);
 require('./routes/fetch')(app, client, settings);
 
 app.listen(settings.options.port, function() {

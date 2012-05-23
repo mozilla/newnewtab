@@ -1,6 +1,6 @@
 {
   "name": "newnewtab",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "engines": {
     "node": ">= 0.6.17",
@@ -9,6 +9,7 @@
   "dependencies": {
     "client-sessions": "0.0.3",
     "connect": "1.7.2",
+    "connect-app-cache": "0.2.1", 
     "connect-cachify": "0.0.8",
     "ejs": ">= 0.7.0",
     "express": "2.5.x",
