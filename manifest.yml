@@ -1,6 +1,6 @@
 --- 
 applications: 
-  .: 
+  .:
     name: newnewtab
     framework: 
       name: node

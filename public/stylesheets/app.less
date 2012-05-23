@@ -22,6 +22,12 @@ body {
   min-height: 40px;
 }
 
+.transparent {
+  opacity: 0;
+  -moz-opacity: 0;
+  filter:alpha(opacity=0);
+}
+
 .margin-side {
   -moz-box-flex: 1;
   max-width: 300px;
@@ -30,4 +36,13 @@ body {
 
 .title {
   font: message-box;
+  text-align: center;
+}
+
+.cell {
+  display: none;
+  &.app {
+    cursor: pointer;
+    display: -moz-box;
+  }
 }
