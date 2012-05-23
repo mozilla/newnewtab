@@ -1,13 +1,15 @@
-newNewTab
+newnewtab
 =========
 
-newnewtab is a project to enhance Firefox users' apps experience. When opening a new tab, they are offered their own (currently installed) tabs, along with one or more recommended apps.
+newnewtab is a project to enhance Firefox users' apps experience. When opening
+a new tab, they are offered their own (currently installed) tabs, along with
+one or more recommended apps.
 
 It is planned for recommendations to be targeted, yet privacy-preserving. 
 
 You may find development wiki_ valuable.
 
-INSTALL
+Install
 #######
 
 * install node_ and redis_ 
@@ -22,3 +24,16 @@ INSTALL
 .. _npm: http://npmjs.org
 .. _redis: http://redis.io
 .. _wiki: https://wiki.mozilla.org/Apps/newnewtab
+
+Settings
+########
+
+By default, settings are in `settings.js`. You can override settings in there
+with environment variables, but if you want to customize lots of settings
+locally (either for development or deployment), you can make a copy of
+`settings.js` (`cp setting.js settings-local.js`) and that file will be read
+instead. The two settings are not merged (at least for now) --
+`settings-local.js` is simply read instead.
+
+`settings-local.js` is not version-controlled; feel free to edit it to your
+heart's content.
