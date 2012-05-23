@@ -22,6 +22,7 @@ client.select(app.set('newnewtab-redis'), function(errDb, res) {
 // TODO: pass client to the routes if redis needed
 require('./routes')(app);
 require('./routes/auth')(app, settings);
+require('./routes/fetch')(app, client, settings);
 
 app.listen(settings.options.port, function() {
   console.log('Express server listening on port %d in %s mode', app.address().port, app.settings.env);
