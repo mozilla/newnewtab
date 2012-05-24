@@ -10,8 +10,15 @@ define(function(require) {
     });
 
     Apps.getAll(function(results) {
+      // Keep our list of installed apps in a variable.
       installedApps = results;
-      insertAppsIntoDOM(Apps.formattedAppsList(results));
+
+      // Get the eight most recently installed apps.
+      var appsToInsert = Apps.formattedAppsList(results).slice(-LOCAL_APP_SQUARES);
+      appsToInsert.reverse();
+
+      // Insert the most recently installed apps into the DOM.
+      insertAppsIntoDOM(appsToInsert);
     });
   });
 
@@ -19,7 +26,10 @@ define(function(require) {
   function insertAppsIntoDOM(apps) {
     var count = 0;
     for (var i in apps) {
-      apps[i].html = new EJS({url: '/templates/app.ejs'}).render({app: apps[i], i: i});
+      apps[i].html = new EJS({url: '/templates/app.ejs'}).render({
+        app: apps[i],
+        i: i
+      });
 
       count++;
       if (count === LOCAL_APP_SQUARES) {
