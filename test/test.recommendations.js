@@ -13,8 +13,6 @@ var fakeRecommendations = require('../lib/fakedata').apps;
 
 client.select(settings.app.set('newnewtab-redis-test'));
 
-;
-
 describe('Recommendations', function() {
 
   describe('from redis', function() {
