@@ -28,13 +28,13 @@ Install
 Settings
 ########
 
-By default, settings are in ``settings.js``. You can override settings in there
-with environment variables, but if you want to customize lots of settings
-locally (either for development or deployment), you can make a copy of
-``settings-local.js-dist`` (``cp setting-local.js-dist settings-local.js``) 
-and that file will be read instead. 
+By default, settings are in ``config-default.js``. You can override settings 
+in there with environment variables (``PORT`` will override ``express:port``), 
+but if you want to customize lots of settings locally (either for 
+development or deployment), you can create ``config-local.json`` and that file 
+will augment or add to settings read by default. 
 
-``settings-local.js`` is not version-controlled; feel free to edit it to your
+``config-local.json`` is not version-controlled; feel free to edit it to your
 heart's content.
 
 Fetching recommendations

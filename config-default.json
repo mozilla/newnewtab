@@ -1,5 +1,5 @@
 {
-	"appOptions": {
+	"express": {
 		"domain": "http://localhost",
 		"port": 3000,
 		"authPort": 3000,

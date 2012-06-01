@@ -4,7 +4,8 @@ module.exports = function(app, configurations, express) {
   var i18n = require('i18n-abide');
   var conf = require('nconf');
 
-  var options = conf.get('appOptions');
+  // overriding port with optional environment variables
+  var options = conf.get('express');
   options.port = process.env['VCAP_APP_PORT'] || process.env['PORT'] || options.port;
 
   // Configuration

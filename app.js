@@ -19,13 +19,9 @@ conf.add('env-file', {'type': 'file',
 conf.add('default-file', {'type': 'file', 
   file: path.join(__dirname, './config-default.json')});
 
+console.log(conf.get('express:port'));
 
-try {
-  settings = require('./settings-local')(app, configurations, express);
-} catch (e) {
-  console.log('No local settings (settings-local.js) found; using defaults.');
-  settings = require('./settings')(app, configurations, express);
-}
+settings = require('./settings')(app, configurations, express);
 
 // select the db
 client.select(conf.get('redis:dbId'), function(errDb, res) {

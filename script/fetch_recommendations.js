@@ -1,26 +1,27 @@
 "use strict";
-var express = require('express');
-var configurations = module.exports;
-var app = express.createServer();
-var settings;
 var redis = require("redis");
 var dbClient = redis.createClient();
 var marketplace = require('../lib/marketplace');
+var conf = require('nconf');
+var path = require('path');
 
-try {
-  settings = require('../settings-local')(app, configurations, express);
-} catch (e) {
-  console.log('No local settings (settings-local.js) found; using defaults.');
-  settings = require('../settings')(app, configurations, express);
-}
+conf.add('local-file', {'type': 'file', 
+  file: path.join(__dirname, '../config-local.json')});
+
+var current_env = process.env['DEV_ENV'] || 'development';
+conf.add('env-file', {'type': 'file', 
+  file: path.join(__dirname, '../config-' + current_env + '.json')});
+
+conf.add('default-file', {'type': 'file', 
+  file: path.join(__dirname, '../config-default.json')});
 
 // select the db
-dbClient.select(app.set('newnewtab-redis'), function(errDb, res) {
-  console.log('PROD/DEV database connection status: ', res);
+dbClient.select(conf.get('redis:dbId'), function(errDb, res) {
+  console.log('Database (', conf.get('redis:dbId'), ') connection status: ', res);
 });
 
 marketplace.fetchRecommendations(
-    app.set('marketplace_api_domain'), function(recommendations) {
+    conf.get('marketplaceAPIDomain'), function(recommendations) {
   console.log('[debug] recommendations fetched');
   marketplace.cacheRecommendations(dbClient, recommendations, function() {
     console.log('[debug] recommendations cached')
