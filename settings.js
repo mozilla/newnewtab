@@ -43,12 +43,14 @@ module.exports = function(app, configurations, express) {
   app.configure('development', function() {
     app.set('newnewtab-redis', 7);
     app.set('newnewtab-redis-test', 6);
+    app.set('marketplace_api_domain', 'marketplace-dev.allizom.org');
   });
 
   app.configure('production', function() {
     app.use(express.errorHandler());
     app.set('newnewtab-redis', 0);
     app.set('newnewtab-redis-test', 6);
+    app.set('marketplace_api_domain', 'marketplace.mozilla.org');
   });
 
   app.configure('development, test', function() {
