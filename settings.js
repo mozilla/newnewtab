@@ -1,5 +1,6 @@
 // Module dependencies.
 module.exports = function(app, configurations, express) {
+  var appCache = require('connect-app-cache');
   var clientSessions = require('client-sessions');
   var i18n = require('i18n-abide');
 
@@ -23,6 +24,7 @@ module.exports = function(app, configurations, express) {
     app.set('views', __dirname + '/views');
     app.set('view engine', 'ejs');
     // app.set('view options', { layout: false });
+    app.use(appCache('newnewtab.appcache', __dirname + '/newnewtab.appcache'));
     app.use(express.bodyParser());
     app.use(express.methodOverride());
     app.use(express.compiler({ src:  __dirname + '/public', enable: ['less'] }));

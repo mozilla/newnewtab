@@ -12,8 +12,8 @@ body {
 
 #margin-top {
   -moz-box-flex: 1;
-  max-height: 80px;
-  min-height: 50px;
+  max-height: 40px;
+  min-height: 25px;
 }
 
 #margin-bottom {
@@ -34,15 +34,86 @@ body {
   min-width: 40px;
 }
 
+.row {
+  margin-bottom: 20px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
 .title {
   font: message-box;
   text-align: center;
 }
 
 .cell {
+  background-color: rgba(255,255,255,.2);
+  border: 1px solid;
+  border-color: rgba(8,22,37,.12) rgba(8,22,37,.14) rgba(8,22,37,.16);
+  border-radius: 1px;
   display: none;
-  &.app {
+  -moz-margin-end: 20px;
+  min-height: 160px;
+  -moz-transition: border-color 100ms ease-out;
+  padding: 0 0 6px;
+  transition: border-color 100ms ease-out;
+
+  &:empty {
+    border: 1px dashed;
+    border-color: rgba(8,22,37,.15) rgba(8,22,37,.17) rgba(8,22,37,.19);
+    padding: 0 130px 6px 0;
+  }
+
+  &:last-child {
+    -moz-margin-end: 0;
+  }
+
+  &:hover:not(:empty) {
+    border-color: rgba(8,22,37,.25) rgba(8,22,37,.27) rgba(8,22,37,.3);
+  }
+
+  &.app, &.recommendation {
     cursor: pointer;
     display: -moz-box;
   }
+}
+
+.recommendation, .recommendation:not(:empty):hover {
+  border: 2px rgba(125, 255, 125, 1) solid;
+
+  .title {
+    background: rgba(208, 249, 211, .95);
+  }
+}
+
+.site {
+  display: block;
+}
+
+.thumbnail {
+  background-origin: padding-box;
+  background-clip: padding-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 128px;
+  margin: 3px auto 0;
+  width: 128px;
+}
+
+.title {
+  background: rgba(248, 249, 251, .95);
+  bottom: -6px;
+  color: #1f364c;
+  font-family: -moz-use-system-font, tahoma, arial, helvetica, sans-serif;
+  font-size: 12px;
+  left: 0;
+  line-height: 24px;
+  overflow: hidden;
+  padding: 0 8px;
+  position: absolute;
+  right: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }

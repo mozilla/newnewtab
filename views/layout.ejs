@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="<%= lang %>" dir="<%= lang_dir %>" manifest="newnewtab.appcache">
+<html lang="<%= lang %>" dir="<%= lang_dir %>" >
+<!-- manifest="/newnewtab.appcache" Removed while early dev'ing -->
 <head>
   <meta charset="utf-8">
 
@@ -24,7 +25,7 @@
     <% } %>
   </footer>
 
-  <script src="../javascripts/lib/jquery.min.js"></script>
+  <script src="../javascripts/lib/mu.js"></script>
   <script src="../javascripts/lib/ejs_production.js"></script>
   <script data-main="../javascripts/main" src="../javascripts/lib/require.js"></script>
 </body>

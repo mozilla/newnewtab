@@ -1,0 +1,17 @@
+CACHE MANIFEST
+# newnewtab
+# 2012-05-27
+
+CACHE:
+javascripts/lib/ejs_production.js
+javascripts/lib/mu.js
+javascripts/lib/require.js
+
+# Use from network if available
+# NETWORK:
+/
+stylesheets/app.css
+
+# Fallback content
+# FALLBACK:
+# / fallback.html
