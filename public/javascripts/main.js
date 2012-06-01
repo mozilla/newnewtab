@@ -5,8 +5,7 @@ define(function(require) {
   $ = window.µ;
 
   var LOCAL_APP_SQUARES = 8;
-  var RECOMMENDATION_SQUARE = window.localStorage.recommendationSquare || 2;
-  var TOTAL_CELLS = $('.cell').length;
+  var RECOMMENDATION_SQUARE = 2; // Default; loaded from localStorage later if available.
 
   var Apps = require('../javascripts/apps');
   // HACK: Load EJS with require.js.
@@ -22,11 +21,22 @@ define(function(require) {
 
   // Do first-run stuff; app setup; etc.
   function init() {
+    // Initialise localStorage variables if this is the first time we've ever
+    // run this app.
     if (localStorage.getItem('firstRun') !== '1') {
       localStorage.recommendations = JSON.stringify([]);
+      localStorage.savedPositions = JSON.stringify({});
+
+      // We've run once and initialized data.
       localStorage.firstRun = '1';
     }
 
+    // If the recommendation square was moved by the user: place it there.
+    if (window.localStorage.recommendationSquare !== undefined) {
+      RECOMMENDATION_SQUARE = parseInt(window.localStorage.recommendationSquare, 10);
+    }
+
+    // Setup DOM listeners and such.
     setupDOM();
   }
 
@@ -82,6 +92,48 @@ define(function(require) {
     $('.cell')[RECOMMENDATION_SQUARE].outerHTML = template.render({recommendation: app});
   }
 
+  // Listen for drag events on the cells in the page.
+  function setupCellDragAndDrop() {
+    var originalElement;
+
+    $('#grid').delegate('dragstart', '.cell', function(event) {
+      originalElement = this;
+      event.dataTransfer.effectAllowed = 'link';
+      event.dataTransfer.setData('text/html', this.outerHTML);
+    });
+
+    $('#grid').delegate('dragover', '.cell', function(event) {
+      event.preventDefault();
+      event.dataTransfer.dropEffect = 'link';
+
+      return false;
+    });
+
+    $('#grid').delegate('drop', '.cell', function(event) {
+      if (this !== originalElement) {
+        originalElement.outerHTML = this.outerHTML;
+        this.outerHTML = event.dataTransfer.getData('text/html');
+
+        // If we're moving the recommendation square, we remember its location.
+        if (originalElement.classList.contains('recommendation')) {
+          var cells = $('.cell');
+          for (var i in cells) {
+            if (cells.hasOwnProperty(i)) {
+              if (cells[i].classList.contains('recommendation')) {
+                localStorage.recommendationSquare = i;
+                break;
+              }
+            }
+          }
+        }
+      }
+
+      event.preventDefault();
+      event.stopPropagation();
+      return false;
+    });
+  }
+
   // Do any DOM-related setup here. Listen for clicks on apps to launch them;
   // get/display list of apps; insert recommendation into the page.
   function setupDOM() {
@@ -92,9 +144,15 @@ define(function(require) {
         event.preventDefault();
       });
 
+      // Listen for drag and drop of cells.
+      setupCellDragAndDrop();
+
       // Get all apps installed and insert recently installed ones into empty
       // squares.
       Apps.getAll(function(results) {
+        // Count and store categories of apps installed.
+        Apps.countCategories(results);
+
         // Reverse stuff to show newest apps first.
         results.reverse();
 
@@ -120,10 +178,8 @@ define(function(require) {
       var newRecommendations = JSON.parse(request.responseText);
       var oldRecommendations = JSON.parse(localStorage.getItem('recommendations'));
       localStorage.setItem('recommendations', request.responseText);
+
+      insertRecommendationIntoDOM(newRecommendations);
     }
-
-    insertRecommendationIntoDOM(newRecommendations);
-
-    return;
   }
 });

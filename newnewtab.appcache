@@ -10,8 +10,6 @@ javascripts/lib/require.js
 
 # Use from network if available
 # NETWORK:
-/
-stylesheets/app.css
 
 # Fallback content
 # FALLBACK:
