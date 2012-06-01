@@ -19,8 +19,6 @@ conf.add('env-file', {'type': 'file',
 conf.add('default-file', {'type': 'file', 
   file: path.join(__dirname, './config-default.json')});
 
-console.log(conf.get('express:port'));
-
 settings = require('./settings')(app, configurations, express);
 
 // select the db
