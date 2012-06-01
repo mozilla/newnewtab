@@ -3,8 +3,21 @@ var express = require('express');
 var configurations = module.exports;
 var app = express.createServer();
 var settings;
-var redis = require("redis");
+var redis = require('redis');
 var client = redis.createClient();
+var conf = require('nconf');
+var path = require('path');
+
+// default config
+conf.add('local-file', {'type': 'file', 
+  file: path.join(__dirname, './config-local.json')});
+
+var current_env = process.env['DEV_ENV'] || 'development';
+conf.add('env-file', {'type': 'file', 
+  file: path.join(__dirname, './config-' + current_env + '.json')});
+
+conf.add('default-file', {'type': 'file', 
+  file: path.join(__dirname, './config-default.json')});
 
 try {
   settings = require('./settings-local')(app, configurations, express);
@@ -14,8 +27,8 @@ try {
 }
 
 // select the db
-client.select(app.set('newnewtab-redis'), function(errDb, res) {
-  console.log('PROD/DEV database connection status: ', res);
+client.select(conf.get('redis:dbId'), function(errDb, res) {
+  console.log('Database (', conf.get('redis:dbId'), ') connection status: ', res);
 });
 
 // Routes

@@ -2,24 +2,14 @@
 module.exports = function(app, configurations, express) {
   var clientSessions = require('client-sessions');
   var i18n = require('i18n-abide');
+  var conf = require('nconf');
 
-  var options = {
-    domain: 'http://localhost',
-    // This is the port that binds to the node server - Apache/Nginx will likely proxy from here
-    port: process.env['VCAP_APP_PORT'] || process.env['PORT'] || 3000,
-    // This is the port that browserid requires for the actual site - 80 for http, 443 for https
-    authPort: 3000,
-    authUrl: 'https://browserid.org'
-  };
+  var options = conf.get('appOptions');
+  options.port = process.env['VCAP_APP_PORT'] || process.env['PORT'] || options.port;
 
   // Configuration
   app.configure(function() {
-    app.use(i18n.abide({
-      supported_languages: ['en-US'],
-      default_lang: 'en-US',
-      debug_lang: 'it-CH', // See: https://github.com/mozilla/i18n-abide#debugging-and-testing
-      locale_directory: 'locale'
-    }));
+    app.use(i18n.abide(conf.get('locale')));
     app.set('views', __dirname + '/views');
     app.set('view engine', 'ejs');
     // app.set('view options', { layout: false });
@@ -27,29 +17,12 @@ module.exports = function(app, configurations, express) {
     app.use(express.methodOverride());
     app.use(express.compiler({ src:  __dirname + '/public', enable: ['less'] }));
     app.use(express.static(__dirname + '/public'));
-    app.use(clientSessions({
-      cookieName: 'session_newnewtab',
-      secret: 'secret', // MUST be set
-      // true session duration:
-      // will expire after duration (ms)
-      // from last session.reset() or
-      // initial cookieing.
-      duration: 24 * 60 * 60 * 1000 * 7, // 1 week
-    }));
+    app.use(clientSessions(conf.get('sessions')));
     app.use(express.csrf());
     app.use(app.router);
   });
 
-  app.configure('development', function() {
-    app.set('newnewtab-redis', 7);
-    app.set('newnewtab-redis-test', 6);
-  });
-
-  app.configure('production', function() {
-    app.use(express.errorHandler());
-    app.set('newnewtab-redis', 0);
-    app.set('newnewtab-redis-test', 6);
-  });
+  app.set('newnewtab-redis', conf.get('redis:dbId'));
 
   app.configure('development, test', function() {
     app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));

@@ -1,0 +1,23 @@
+{
+	"appOptions": {
+		"domain": "http://localhost",
+		"port": 3000,
+		"authPort": 3000,
+		"authUrl": "https://browserid.org"
+	},
+	"locale": {
+      "supported_languages": ["en-US"],
+      "default_lang": "en-US",
+      "debug_lang": "it-CH",
+      "locale_directory": "locale"
+	},
+	"sessions": {
+      "cookieName": "session_newnewtab",
+      "secret": "secret",
+	  "duration": 604800000
+	},
+	"redis": {
+		"dbId": 7,
+		"testDbId": 6
+	}
+}
