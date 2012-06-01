@@ -19,6 +19,7 @@ conf.add('env-file', {'type': 'file',
 conf.add('default-file', {'type': 'file', 
   file: path.join(__dirname, './config-default.json')});
 
+
 try {
   settings = require('./settings-local')(app, configurations, express);
 } catch (e) {
@@ -35,6 +36,7 @@ client.select(conf.get('redis:dbId'), function(errDb, res) {
 // TODO: pass client to the routes if redis needed
 require('./routes')(app);
 require('./routes/auth')(app, settings);
+require('./routes/fetch')(app, client, settings);
 
 app.listen(settings.options.port, function() {
   console.log('Express server listening on port %d in %s mode', app.address().port, app.settings.env);

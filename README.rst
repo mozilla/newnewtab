@@ -36,3 +36,8 @@ and that file will be read instead.
 
 ``settings-local.js`` is not version-controlled; feel free to edit it to your
 heart's content.
+
+Fetching recommendations
+========================
+
+Use ``node script/fetch_recommendations``.
