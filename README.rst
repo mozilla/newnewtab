@@ -25,6 +25,15 @@ Install
 .. _redis: http://redis.io
 .. _wiki: https://wiki.mozilla.org/Apps/newnewtab
 
+mozApps Whitelist
+#################
+
+In order to get this to work at all, you'll need to whitelist the address
+newnewtab is running from in your `about:config` in Firefox (tested in version
+15+ -- i.e. Nightly). Basically, open up your `about:config` and add the key:
+`dom.mozApps.whitelist`. Make sure `localhost:3000` (or wherever newnewtab is
+running from) is there so it can access your installed apps!
+
 Settings
 ########
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="<%= lang %>" dir="<%= lang_dir %>" manifest="newnewtab.appcache">
+<html lang="<%= lang %>" dir="<%= lang_dir %>" manifest="/newnewtab.appcache">
 <head>
   <meta charset="utf-8">
 
@@ -13,18 +13,6 @@
 <body>
   <%- body %>
 
-  <footer>
-    <% if (session.email) { %>
-      <a href="/logout"><% gettext('Log out') %></a>
-    <% } else { %>
-      <a href="#login" id="login"><% gettext('Sign in with Persona') %></a>
-      <form method="POST" action="/login" class="login">
-        <input type="hidden" name="bid_assertion" value="1">
-      </form>
-    <% } %>
-  </footer>
-
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <script src="../javascripts/main.js"></script>
+  <script data-main="../javascripts/main" src="../javascripts/lib/require.js"></script>
 </body>
 </html>
