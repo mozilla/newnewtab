@@ -2,7 +2,7 @@
 define(function(require) {
   // HACK: require.js + potch's useful jQuery-like interface for modern browsers.
   var $ = require('../javascripts/lib/mu');
-  $ = window.µ;
+  $ = window.mu;
 
   var LOCAL_APP_SQUARES = 8;
   var RECOMMENDATION_SQUARE = 2; // Default; loaded from localStorage later if available.
@@ -68,6 +68,7 @@ define(function(require) {
           recommendationInserted = 1;
           continue;
         }
+
 
         cells[i].outerHTML = apps[i - recommendationInserted].html;
       }
@@ -150,9 +151,6 @@ define(function(require) {
       // Get all apps installed and insert recently installed ones into empty
       // squares.
       Apps.getAll(function(results) {
-        // Count and store categories of apps installed.
-        Apps.countCategories(results);
-
         // Reverse stuff to show newest apps first.
         results.reverse();
 

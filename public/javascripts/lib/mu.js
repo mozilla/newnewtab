@@ -1,4 +1,4 @@
-var µ = (function(win, doc) {
+var mu = (function(win, doc) {
 
     var call = 'call',
         obj = 'object',
