@@ -140,6 +140,15 @@ define(function(require) {
   // get/display list of apps; insert recommendation into the page.
   function setupDOM() {
     window.addEventListener('load', function() {
+      // Check for mozApps API, because feature detection is very polite.
+      if (!window.navigator.mozApps) {
+        $('#grid')[0].outerHTML = new EJS({
+          url: '/templates/browser-error.ejs'
+        }).render();
+
+        return;
+      }
+
       // When an app is clicked on, launch it.
       $('#grid').delegate('click', '.app', function(event) {
         installedApps[this.dataset.appId].launch();
