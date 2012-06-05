@@ -19,5 +19,6 @@
 	"redis": {
 		"dbId": 7,
 		"testDbId": 6
-	}
+	},
+	"marketplaceAPIDomain": "marketplace.mozilla.org"
 }
