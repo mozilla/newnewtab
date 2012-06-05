@@ -4,6 +4,7 @@ define(function(require) {
   var $ = require('../javascripts/lib/mu');
   $ = window.mu;
 
+  var APP_URL = $('body')[0].dataset.appUrl;
   var LOCAL_APP_SQUARES = 8;
   var RECOMMENDATION_SQUARE = 2; // Default; loaded from localStorage later if available.
 
@@ -151,6 +152,8 @@ define(function(require) {
       // Get all apps installed and insert recently installed ones into empty
       // squares.
       Apps.getAll(function(results) {
+        var request = new Request('/recommendations.json?categories=Games', updateRecommendations);
+
         // Reverse stuff to show newest apps first.
         results.reverse();
 
@@ -162,10 +165,13 @@ define(function(require) {
 
         // Insert the most recently installed apps into the DOM.
         insertAppsIntoDOM(appsToInsert);
+        insertRecommendationIntoDOM();
+      }, function(event) { // Error; probably not whitelisted.
+        // Show an error message with instructions on whitelisting.
+        $('#grid')[0].outerHTML = new EJS({
+          url: '/templates/apps-error.ejs'
+        }).render({appURL: APP_URL});
       });
-
-      var request = new Request('/recommendations.json?categories=Games', updateRecommendations);
-      insertRecommendationIntoDOM();
     });
   }
 
