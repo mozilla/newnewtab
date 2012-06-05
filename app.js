@@ -4,7 +4,7 @@ var configurations = module.exports;
 var app = express.createServer();
 var settings;
 var redis = require('redis');
-var client = redis.createClient();
+var dbClient = redis.createClient();
 var conf = require('nconf');
 var path = require('path');
 
@@ -22,14 +22,15 @@ conf.add('default-file', {'type': 'file',
 settings = require('./settings')(app, configurations, express);
 
 // select the db
-client.select(conf.get('redis:dbId'), function(errDb, res) {
+dbClient.select(conf.get('redis:dbId'), function(errDb, res) {
   console.log('Database (', conf.get('redis:dbId'), ') connection status: ', res);
 });
 
 // Routes
-// TODO: pass client to the routes if redis needed
-require('./routes')(app, client);
-require('./routes/fetch')(app, client, settings);
+require('./routes')(app, dbClient);
+require('./routes/auth')(app, settings);
+require('./routes/fetch')(app, dbClient, settings);
+require('./routes/count')(app, dbClient);
 
 app.listen(settings.options.port, function() {
   console.log('Express server listening on port %d in %s mode', app.address().port, app.settings.env);
