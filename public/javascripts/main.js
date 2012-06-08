@@ -1,5 +1,8 @@
 'use strict';
 define(function(require) {
+  // Monkeypatch Array
+  require('../javascripts/array');
+
   // HACK: require.js + potch's useful jQuery-like interface for modern browsers.
   var $ = require('../javascripts/lib/mu');
   $ = window.mu;
@@ -89,7 +92,7 @@ define(function(require) {
       }
     }
 
-    var app = Apps.wrapRecommendation(recommendations['Games'][0]);
+    var app = Apps.wrapRecommendation(recommendations['Games'].random());
     var template = new EJS({url: '/templates/recommendation.ejs'});
     $('.cell')[RECOMMENDATION_SQUARE].outerHTML = template.render({recommendation: app});
   }

@@ -28,7 +28,6 @@ dbClient.select(conf.get('redis:dbId'), function(errDb, res) {
 
 // Routes
 require('./routes')(app, dbClient);
-require('./routes/auth')(app, settings);
 require('./routes/fetch')(app, dbClient, settings);
 require('./routes/count')(app, dbClient);
 
