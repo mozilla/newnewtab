@@ -20,6 +20,5 @@ describe('BDDInterface', function(){
     it('should not equal', function(){
       assert(2 != some.number);
     });
-
   });
 });

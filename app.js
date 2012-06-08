@@ -7,17 +7,10 @@ var redis = require('redis');
 var dbClient = redis.createClient();
 var conf = require('nconf');
 var path = require('path');
+var fs = require('fs');
 
-// default config
-conf.add('local-file', {'type': 'file', 
-  file: path.join(__dirname, './config-local.json')});
-
-var current_env = process.env['DEV_ENV'] || 'development';
-conf.add('env-file', {'type': 'file', 
-  file: path.join(__dirname, './config-' + current_env + '.json')});
-
-conf.add('default-file', {'type': 'file', 
-  file: path.join(__dirname, './config-default.json')});
+require('./lib/conf').loadDefaultConf(console.log,
+    path.join(__dirname, './config-local.json'));
 
 settings = require('./settings')(app, configurations, express);
 

@@ -1,4 +1,6 @@
 var conf = require('nconf');
+var fs = require('fs');
+var path = require('path');
 var redis = require('redis');
 var client = redis.createClient();
 
@@ -6,6 +8,10 @@ var assert = require('assert');
 
 var marketplace = require('../lib/marketplace');
 var fakeRecommendations = require('../lib/fakedata').apps;
+
+var current_env = process.env['DEV_ENV'] || 'development';
+require('../lib/conf').loadDefaultConf(
+    path.join(__dirname, './config-test.json'));
 
 client.select(conf.get('redis:testDbId'));
 
