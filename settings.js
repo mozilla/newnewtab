@@ -4,6 +4,7 @@ module.exports = function(app, configurations, express) {
   var clientSessions = require('client-sessions');
   var i18n = require('i18n-abide');
   var conf = require('nconf');
+  require(__dirname + '/lib/string');
 
   // overriding port with optional environment variables
   var options = conf.get('express');
@@ -36,6 +37,15 @@ module.exports = function(app, configurations, express) {
   });
 
   app.dynamicHelpers({
+    appURL: function(req, res) {
+      var address = app.address();
+
+      return '{protocol}://{address}{port}'.format({
+        protocol: address.family != 2 ? 'https' : 'http',
+        address: address.address,
+        port: [80, 443].indexOf(address.port) >= 0 ? ':' + address.port : ''
+      });
+    },
     session: function (req, res) {
       return req.session;
     },
