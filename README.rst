@@ -34,6 +34,8 @@ newnewtab is running from in your `about:config` in Firefox (tested in version
 `dom.mozApps.whitelist`. Make sure `localhost:3000` (or wherever newnewtab is
 running from) is there so it can access your installed apps!
 
+You'll need Firefox 15+ for things to work.
+
 Settings
 ########
 

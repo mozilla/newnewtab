@@ -1,0 +1,19 @@
+<div id="whitelist-warning">
+  <h1>newnewtab requires whitelisting!</h1>
+
+  <p>
+    Sorry to bug you, but to get the newnewtab app interface to work, you'll
+    need to add it to your apps whitelist. It's easy and you only need to do
+    it once:
+  </p>
+
+  <ol>
+    <li>type <code>about:config</code> into your URL bar and hit return</li>
+    <li>you understand what you're doing, so go ahead</li>
+    <li>search for <code>dom.mozApps.whitelist</code> and edit the value (if it isn't there, right-click anywhere below and go to <strong>New &gt; String</strong>)</li>
+    <li>add <code><%= appURL %></code> (each URL needs to be comma-separated)</li>
+    <li>Restart Firefox</li>
+  </ol>
+
+  <p>Note that you're need Firefox 15 or above to use these features.</p>
+</div>

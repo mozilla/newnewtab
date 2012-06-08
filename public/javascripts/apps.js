@@ -8,15 +8,22 @@ define(function(require, exports, module) {
   // Gets all installed apps on your machine. Takes a callback with one
   // argument: a pretty-formatted list of apps. Requires URL of site to be
   // whitelisted in about:config (key = 'dom.mozApps.whitelist').
-  function getAll(callback) {
+  // If you aren't whitelisted (or, for some other reason, the method fails)
+  // a second callback argument can be used (where you should tell the user
+  // what happened and how to fix it).
+  function getAll(successCallback, errorCallback) {
     var apps = mozApps.mgmt.getAll();
 
     apps.addEventListener('success', function() {
-      callback(apps.result);
+      if (successCallback) {
+        successCallback(apps.result);
+      }
     });
 
     apps.addEventListener('error', function(event) {
-      console.log(event);
+      if (errorCallback) {
+        errorCallback(event);
+      }
     });
   }
 
