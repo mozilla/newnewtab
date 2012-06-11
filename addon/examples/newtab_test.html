@@ -37,7 +37,7 @@ window.onload = function( ) {
         for( var mrktCat in mkrtCats ) {
            var mkrtScore = mkrtCats[ mrktCat ];
            if( ! marketPlaceCats[ mrktCat ] ) {
-               marketPlaceCats[ mrktCat ] = 0; 
+               marketPlaceCats[ mrktCat ] = 0;
            }
            marketPlaceCats[ mrktCat ] += mkrtScore * odpScore;
            totalScore += mkrtScore * odpScore;
@@ -60,7 +60,7 @@ window.onload = function( ) {
 
     odp2MarketPlaceMapping = JSON.parse( request.responseText );
     mapOdp2MarketPlace( );
-    
+
     // display the mappings on the page
     outputData( "interests" , marketPlaceCats );
 
