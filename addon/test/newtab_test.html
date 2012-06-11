@@ -1,0 +1,100 @@
+<html>
+<head>
+<script >
+
+var odp2MarketPlaceMapping;
+var marketPlaceCats = {};
+
+window.onload = function( ) {
+
+	function outputData( id , result ) {
+		var doc = window.document;
+		var el = doc.getElementById( id );
+		var string = "";
+		
+	    Object.keys(result).sort(function(a, b) {
+	      return result[b] - result[a];
+	    }).map(function(category) {
+			string += category + ": " + result[category] + "\n";
+	    });
+
+		console.log( string );
+		el.textContent = string;
+	};
+
+  function mapOdp2MarketPlace( ) {
+
+    // this call returns ODP categoris with scores for that user
+    window.getCategories( function( odpInterests ) {
+
+      // we must map odp results into marketplace categories
+      var totalScore = 0;
+      for( var odpCat in odpInterests ) {
+
+        var odpScore = odpInterests[ odpCat ];
+
+        var mkrtCats = odp2MarketPlaceMapping[ odpCat ];
+        for( var mrktCat in mkrtCats ) {
+           var mkrtScore = mkrtCats[ mrktCat ];
+           if( ! marketPlaceCats[ mrktCat ] ) {
+               marketPlaceCats[ mrktCat ] = 0; 
+           }
+           marketPlaceCats[ mrktCat ] += mkrtScore * odpScore;
+           totalScore += mkrtScore * odpScore;
+        }
+      }
+
+      // now go back to marketPlaceCats and nromalize by sqrt of ODP and mrktplace vectors for each market place category
+      for( var cat in marketPlaceCats ) {
+          marketPlaceCats[ cat ] *= 100.0 / totalScore ;
+      }
+      // dor debugging
+      outputData( "odp_interests" , odpInterests );
+    });
+  }  // end of mapOdp2MarketPlace
+
+  var request = new XMLHttpRequest();
+  request.onload = function ( ) {
+
+  if (request.status == "200") {
+
+    odp2MarketPlaceMapping = JSON.parse( request.responseText );
+    mapOdp2MarketPlace( );
+    
+    // display the mappings on the page
+    outputData( "interests" , marketPlaceCats );
+
+    // also dump the JSON object to odp2market
+    var txt = "";
+    for( odpCat in odp2MarketPlaceMapping ) {
+      txt +=  odpCat + "    "  + JSON.stringify( odp2MarketPlaceMapping[odpCat] ) + "\n";
+    }
+    window.document.getElementById( "odp_to_market" ).textContent = txt;
+  }
+
+	window.getDemographics( function( result ) {
+      // this returns empty object
+	});
+
+};
+
+request.open('GET', 'http://people.mozilla.com/~mzhilyaev/odp2mozilla.json', false);
+request.send( );
+
+};
+
+</script>
+</head>
+<body>
+<p>hello  - this is new tab API test</p>
+<h3>market interests</h3>
+<pre id="interests"></pre>
+<h3>odp interests</h3>
+<pre id="odp_interests"></pre>
+<h3>odp 2 market place mapping</h3>
+<pre id="odp_to_market"></pre>
+<h3>demographics</h3>
+<pre id="demographics"></pre>
+
+</body>
+</html>
