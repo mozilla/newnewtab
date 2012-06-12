@@ -1,4 +1,6 @@
 var conf = require('nconf');
+var fs = require('fs');
+var path = require('path');
 var redis = require('redis');
 var dbClient = redis.createClient();
 
@@ -8,8 +10,10 @@ var marketplace = require('../lib/marketplace');
 
 var callback = function() {};
 
-dbClient.select(conf.get('redis:testDbId'));
+require('../lib/conf').loadDefaultConf(
+    path.join(__dirname, './config-test.json'));
 
+dbClient.select(conf.get('redis:testDbId'));
 
 describe('Clicks', function() {
 
