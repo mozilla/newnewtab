@@ -44,12 +44,14 @@ window.onload = function( ) {
         }
       }
 
-      // now go back to marketPlaceCats and nromalize by sqrt of ODP and mrktplace vectors for each market place category
+      // now go back to marketPlaceCats and normalize by totalScore
       for( var cat in marketPlaceCats ) {
           marketPlaceCats[ cat ] *= 100.0 / totalScore ;
       }
-      // dor debugging
-      outputData( "odp_interests" , odpInterests );
+
+      // display the mappings on the page
+      outputData("interests", marketPlaceCats);
+      outputData("odp_interests", odpInterests);
     });
   }  // end of mapOdp2MarketPlace
 
@@ -61,8 +63,6 @@ window.onload = function( ) {
     odp2MarketPlaceMapping = JSON.parse( request.responseText );
     mapOdp2MarketPlace( );
 
-    // display the mappings on the page
-    outputData( "interests" , marketPlaceCats );
 
     // also dump the JSON object to odp2market
     var txt = "";
