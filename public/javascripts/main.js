@@ -95,6 +95,10 @@ define(function(require) {
     var app = Apps.wrapRecommendation(recommendations['Games'].random());
     var template = new EJS({url: '/templates/recommendation.ejs'});
     $('.cell')[RECOMMENDATION_SQUARE].outerHTML = template.render({recommendation: app});
+
+    $('.recommendation .thumbnail')[0].addEventListener('error', function() {
+      this.src = '/images/openbox.png';
+    });
   }
 
   // Listen for drag events on the cells in the page.
