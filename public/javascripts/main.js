@@ -73,7 +73,6 @@ define(function(require) {
           continue;
         }
 
-
         cells[i].outerHTML = apps[i - recommendationInserted].html;
       }
     }
