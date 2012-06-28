@@ -1,0 +1,2698 @@
+{
+   "Health/News_and_Media" : {
+      "NEWS_AND_WEATHER" : 100
+   },
+   "Sports/Bowling" : {
+      "GAMES" : 99
+   },
+   "Reference/Journals" : {
+      "HEALTH_AND_FITNESS" : 14,
+      "ENTERTAINMENT_AND_SPORTS" : 8,
+      "LIFESTYLE" : 28,
+      "UTILITIES" : 3,
+      "TRAVEL" : 9,
+      "NEWS_AND_WEATHER" : 32,
+      "BUSINESS" : 3
+   },
+   "Business/Investing" : {
+      "BUSINESS" : 100
+   },
+   "Arts/Classical_Studies" : {
+      "LIFESTYLE" : 10,
+      "EDUCATION" : 8,
+      "BOOKS_AND_REFERENCE" : 73,
+      "MUSIC" : 7
+   },
+   "Computers/Performance_and_Capacity" : {
+      "UTILITIES" : 41,
+      "LIFESTYLE" : 14,
+      "BUSINESS" : 23,
+      "GAMES" : 12,
+      "BOOKS_AND_REFERENCE" : 7
+   },
+   "Shopping/Flowers" : {
+      "LIFESTYLE" : 46,
+      "EDUCATION" : 3,
+      "GAMES" : 12,
+      "BOOKS_AND_REFERENCE" : 36
+   },
+   "Business/Major_Companies" : {
+      "SOCIAL_AND_COMMUNICATION" : 7,
+      "ENTERTAINMENT_AND_SPORTS" : 12,
+      "LIFESTYLE" : 21,
+      "TRAVEL" : 9,
+      "SHOPPING" : 7,
+      "BUSINESS" : 41
+   },
+   "Reference/Dictionaries" : {
+      "UTILITIES" : 7,
+      "BOOKS_AND_REFERENCE" : 92
+   },
+   "Games/Roleplaying" : {
+      "UTILITIES" : 7,
+      "GAMES" : 92
+   },
+   "Sports/Softball" : {
+      "ENTERTAINMENT_AND_SPORTS" : 80,
+      "GAMES" : 12,
+      "BUSINESS" : 7
+   },
+   "Games/Play_Groups" : {
+      "SOCIAL_AND_COMMUNICATION" : 46,
+      "GAMES" : 17,
+      "BOOKS_AND_REFERENCE" : 10,
+      "MUSIC" : 25
+   },
+   "Computers/Software" : {
+      "SOCIAL_AND_COMMUNICATION" : 9,
+      "ENTERTAINMENT_AND_SPORTS" : 18,
+      "UTILITIES" : 44,
+      "BUSINESS" : 20,
+      "MUSIC" : 7
+   },
+   "Home/Rural_Living" : {
+      "ENTERTAINMENT_AND_SPORTS" : 15,
+      "LIFESTYLE" : 14,
+      "TRAVEL" : 9,
+      "GAMES" : 23,
+      "NEWS_AND_WEATHER" : 16,
+      "BOOKS_AND_REFERENCE" : 6,
+      "MUSIC" : 12
+   },
+   "Sports/Baseball" : {
+      "ENTERTAINMENT_AND_SPORTS" : 7,
+      "GAMES" : 92
+   },
+   "Health/Alternative" : {
+      "ENTERTAINMENT_AND_SPORTS" : 20,
+      "UTILITIES" : 31,
+      "GAMES" : 18,
+      "NEWS_AND_WEATHER" : 9,
+      "MUSIC" : 10
+   },
+   "Science/Chemistry" : {
+      "ENTERTAINMENT_AND_SPORTS" : 11,
+      "EDUCATION" : 60,
+      "LIFESTYLE" : 4,
+      "BOOKS_AND_REFERENCE" : 22
+   },
+   "Computers/Parallel_Computing" : {
+      "EDUCATION" : 23,
+      "UTILITIES" : 20,
+      "GAMES" : 8,
+      "BOOKS_AND_REFERENCE" : 29,
+      "MUSIC" : 17
+   },
+   "Recreation/Collecting" : {
+      "SHOPPING" : 20,
+      "LIFESTYLE" : 19,
+      "EDUCATION" : 4,
+      "GAMES" : 19,
+      "BOOKS_AND_REFERENCE" : 34
+   },
+   "Business/Biotechnology_and_Pharmaceuticals" : {
+      "HEALTH_AND_FITNESS" : 16,
+      "BUSINESS" : 63,
+      "NEWS_AND_WEATHER" : 20
+   },
+   "Business/Financial_Services" : {
+      "BUSINESS" : 100
+   },
+   "Sports/Disabled" : {
+      "HEALTH_AND_FITNESS" : 16,
+      "UTILITIES" : 22,
+      "LIFESTYLE" : 11,
+      "GAMES" : 10,
+      "BUSINESS" : 3,
+      "MUSIC" : 34
+   },
+   "Sports" : {
+      "ENTERTAINMENT_AND_SPORTS" : 92,
+      "GAMES" : 7
+   },
+   "Society/Activism" : {
+      "SOCIAL_AND_COMMUNICATION" : 10,
+      "LIFESTYLE" : 27,
+      "TRAVEL" : 11,
+      "UTILITIES" : 8,
+      "NEWS_AND_WEATHER" : 21,
+      "GAMES" : 10,
+      "BUSINESS" : 9
+   },
+   "Health/Dentistry" : {
+      "HEALTH_AND_FITNESS" : 67,
+      "ENTERTAINMENT_AND_SPORTS" : 7,
+      "EDUCATION" : 12,
+      "GAMES" : 11
+   },
+   "Reference/Bibliography" : {
+      "BOOKS_AND_REFERENCE" : 100
+   },
+   "Shopping/Gifts" : {
+      "ENTERTAINMENT_AND_SPORTS" : 7,
+      "SHOPPING" : 41,
+      "LIFESTYLE" : 13,
+      "UTILITIES" : 16,
+      "BUSINESS" : 4,
+      "GAMES" : 7,
+      "BOOKS_AND_REFERENCE" : 9
+   },
+   "Shopping/Consumer_Electronics" : {
+      "ENTERTAINMENT_AND_SPORTS" : 3,
+      "SHOPPING" : 50,
+      "EDUCATION" : 10,
+      "NEWS_AND_WEATHER" : 18,
+      "MUSIC" : 15
+   },
+   "Recreation/Radio" : {
+      "ENTERTAINMENT_AND_SPORTS" : 20,
+      "MUSIC" : 68
+   },
+   "Health/Pharmacy" : {
+      "HEALTH_AND_FITNESS" : 92,
+      "SHOPPING" : 7
+   },
+   "Sports/Tchoukball" : {
+      "ENTERTAINMENT_AND_SPORTS" : 51,
+      "BOOKS_AND_REFERENCE" : 48
+   },
+   "Society/History" : {
+      "SOCIAL_AND_COMMUNICATION" : 11,
+      "ENTERTAINMENT_AND_SPORTS" : 7,
+      "UTILITIES" : 20,
+      "LIFESTYLE" : 20,
+      "EDUCATION" : 12,
+      "BUSINESS" : 10,
+      "GAMES" : 16
+   },
+   "Health/Teen_Health" : {
+      "HEALTH_AND_FITNESS" : 100
+   },
+   "Sports/Fantasy" : {
+      "ENTERTAINMENT_AND_SPORTS" : 40,
+      "UTILITIES" : 7,
+      "GAMES" : 52
+   },
+   "Sports/Organizations" : {
+      "SOCIAL_AND_COMMUNICATION" : 11,
+      "ENTERTAINMENT_AND_SPORTS" : 9,
+      "TRAVEL" : 9,
+      "EDUCATION" : 7,
+      "BUSINESS" : 42,
+      "GAMES" : 8,
+      "BOOKS_AND_REFERENCE" : 10
+   },
+   "Health/Reproductive_Health" : {
+      "HEALTH_AND_FITNESS" : 100
+   },
+   "Society/Organizations" : {
+      "SOCIAL_AND_COMMUNICATION" : 11,
+      "ENTERTAINMENT_AND_SPORTS" : 9,
+      "TRAVEL" : 9,
+      "EDUCATION" : 7,
+      "BUSINESS" : 42,
+      "GAMES" : 8,
+      "BOOKS_AND_REFERENCE" : 10
+   },
+   "Business/Education_and_Training" : {
+      "EDUCATION" : 100
+   },
+   "Sports/Badminton" : {
+      "ENTERTAINMENT_AND_SPORTS" : 58,
+      "GAMES" : 41
+   },
+   "Arts/Radio" : {
+      "ENTERTAINMENT_AND_SPORTS" : 20,
+      "MUSIC" : 68
+   },
+   "Society/Government" : {
+      "TRAVEL" : 11,
+      "EDUCATION" : 9,
+      "NEWS_AND_WEATHER" : 33,
+      "BUSINESS" : 8,
+      "BOOKS_AND_REFERENCE" : 36
+   },
+   "Shopping/Classifieds" : {
+      "SHOPPING" : 72,
+      "LIFESTYLE" : 14,
+      "UTILITIES" : 2,
+      "BUSINESS" : 9
+   },
+   "Shopping/Photography" : {
+      "EDUCATION" : 50,
+      "LIFESTYLE" : 50
+   },
+   "Games/Gambling" : {
+      "SOCIAL_AND_COMMUNICATION" : 8,
+      "ENTERTAINMENT_AND_SPORTS" : 29,
+      "LIFESTYLE" : 17,
+      "GAMES" : 42
+   },
+   "Sports/Airsoft" : {
+      "SOCIAL_AND_COMMUNICATION" : 10,
+      "ENTERTAINMENT_AND_SPORTS" : 12,
+      "UTILITIES" : 41,
+      "SHOPPING" : 11,
+      "BUSINESS" : 12,
+      "BOOKS_AND_REFERENCE" : 7,
+      "MUSIC" : 3
+   },
+   "Reference/Knots" : {
+      "ENTERTAINMENT_AND_SPORTS" : 7,
+      "UTILITIES" : 12,
+      "LIFESTYLE" : 10,
+      "BOOKS_AND_REFERENCE" : 69
+   },
+   "Science" : {
+      "LIFESTYLE" : 8,
+      "NEWS_AND_WEATHER" : 70,
+      "GAMES" : 9,
+      "BOOKS_AND_REFERENCE" : 11
+   },
+   "Shopping/Clothing" : {
+      "LIFESTYLE" : 27,
+      "SHOPPING" : 20,
+      "UTILITIES" : 10,
+      "EDUCATION" : 9,
+      "GAMES" : 11,
+      "NEWS_AND_WEATHER" : 10,
+      "BOOKS_AND_REFERENCE" : 9
+   },
+   "Business/Electronics_and_Electrical" : {
+      "UTILITIES" : 25,
+      "LIFESTYLE" : 13,
+      "EDUCATION" : 8,
+      "BUSINESS" : 11,
+      "BOOKS_AND_REFERENCE" : 12,
+      "MUSIC" : 26
+   },
+   "Society/Future" : {
+      "SOCIAL_AND_COMMUNICATION" : 26,
+      "LIFESTYLE" : 37,
+      "SHOPPING" : 10,
+      "BOOKS_AND_REFERENCE" : 25
+   },
+   "Science/News_and_Media" : {
+      "NEWS_AND_WEATHER" : 100
+   },
+   "Games/Game_Studies" : {
+      "GAMES" : 99
+   },
+   "Sports/Skating" : {
+      "ENTERTAINMENT_AND_SPORTS" : 7,
+      "GAMES" : 92
+   },
+   "Sports/Officiating" : {
+      "ENTERTAINMENT_AND_SPORTS" : 91,
+      "GAMES" : 8
+   },
+   "Games/Play-By-Mail" : {
+      "SOCIAL_AND_COMMUNICATION" : 53,
+      "ENTERTAINMENT_AND_SPORTS" : 21,
+      "GAMES" : 12,
+      "MUSIC" : 12
+   },
+   "Computers/Companies" : {
+      "TRAVEL" : 25,
+      "SHOPPING" : 12,
+      "UTILITIES" : 3,
+      "LIFESTYLE" : 3,
+      "BUSINESS" : 41,
+      "MUSIC" : 10
+   },
+   "Business/Hospitality" : {
+      "TRAVEL" : 71,
+      "GAMES" : 28
+   },
+   "Sports/Table_Tennis" : {
+      "GAMES" : 99
+   },
+   "Sports/Orienteering" : {
+      "ENTERTAINMENT_AND_SPORTS" : 17,
+      "TRAVEL" : 29,
+      "GAMES" : 51
+   },
+   "Society/Sexuality" : {
+      "ENTERTAINMENT_AND_SPORTS" : 39,
+      "LIFESTYLE" : 42,
+      "BOOKS_AND_REFERENCE" : 18
+   },
+   "Sports/Informal_Sports" : {
+      "ENTERTAINMENT_AND_SPORTS" : 80,
+      "EDUCATION" : 9,
+      "GAMES" : 10
+   },
+   "Reference/Education" : {
+      "EDUCATION" : 100
+   },
+   "Computers/Human-Computer_Interaction" : {
+      "EDUCATION" : 23,
+      "UTILITIES" : 21,
+      "LIFESTYLE" : 10,
+      "GAMES" : 31,
+      "BUSINESS" : 3,
+      "BOOKS_AND_REFERENCE" : 9
+   },
+   "Computers/Data_Communications" : {
+      "SOCIAL_AND_COMMUNICATION" : 100
+   },
+   "Recreation/Picture_Ratings" : {
+      "SOCIAL_AND_COMMUNICATION" : 21,
+      "ENTERTAINMENT_AND_SPORTS" : 13,
+      "EDUCATION" : 20,
+      "LIFESTYLE" : 18,
+      "SHOPPING" : 8,
+      "MUSIC" : 15
+   },
+   "Business/Cooperatives" : {
+      "LIFESTYLE" : 28,
+      "SHOPPING" : 12,
+      "EDUCATION" : 8,
+      "BUSINESS" : 17,
+      "GAMES" : 21,
+      "NEWS_AND_WEATHER" : 10
+   },
+   "Arts/Education" : {
+      "EDUCATION" : 100
+   },
+   "Sports/Croquet" : {
+      "ENTERTAINMENT_AND_SPORTS" : 39,
+      "EDUCATION" : 12,
+      "GAMES" : 47
+   },
+   "Reference/Biography" : {
+      "HEALTH_AND_FITNESS" : 19,
+      "ENTERTAINMENT_AND_SPORTS" : 9,
+      "LIFESTYLE" : 37,
+      "EDUCATION" : 11,
+      "GAMES" : 12,
+      "MUSIC" : 9
+   },
+   "Society/Politics" : {
+      "ENTERTAINMENT_AND_SPORTS" : 7,
+      "EDUCATION" : 10,
+      "NEWS_AND_WEATHER" : 74,
+      "GAMES" : 8
+   },
+   "Business/Environment" : {
+      "LIFESTYLE" : 19,
+      "EDUCATION" : 12,
+      "UTILITIES" : 9,
+      "NEWS_AND_WEATHER" : 29,
+      "BOOKS_AND_REFERENCE" : 28
+   },
+   "Recreation/Roads_and_Highways" : {
+      "TRAVEL" : 54,
+      "GAMES" : 44
+   },
+   "Home/Do-It-Yourself" : {
+      "HEALTH_AND_FITNESS" : 16,
+      "ENTERTAINMENT_AND_SPORTS" : 29,
+      "UTILITIES" : 22,
+      "LIFESTYLE" : 20,
+      "BUSINESS" : 10
+   },
+   "Sports/Skateboarding" : {
+      "GAMES" : 99
+   },
+   "Arts/Crafts" : {
+      "SHOPPING" : 20,
+      "LIFESTYLE" : 24,
+      "UTILITIES" : 4,
+      "TRAVEL" : 9,
+      "GAMES" : 36,
+      "BUSINESS" : 4
+   },
+   "Science/Math" : {
+      "ENTERTAINMENT_AND_SPORTS" : 8,
+      "EDUCATION" : 50,
+      "GAMES" : 40
+   },
+   "Recreation/Parties" : {
+      "SOCIAL_AND_COMMUNICATION" : 18,
+      "ENTERTAINMENT_AND_SPORTS" : 21,
+      "GAMES" : 48,
+      "MUSIC" : 10
+   },
+   "Reference/Books" : {
+      "EDUCATION" : 25,
+      "LIFESTYLE" : 11,
+      "UTILITIES" : 7,
+      "BOOKS_AND_REFERENCE" : 54
+   },
+   "Recreation/Humor" : {
+      "ENTERTAINMENT_AND_SPORTS" : 94,
+      "MUSIC" : 4
+   },
+   "Society/Issues" : {
+      "SOCIAL_AND_COMMUNICATION" : 12,
+      "UTILITIES" : 21,
+      "LIFESTYLE" : 5,
+      "NEWS_AND_WEATHER" : 32,
+      "BUSINESS" : 14,
+      "GAMES" : 10
+   },
+   "Computers/Home_Automation" : {
+      "SOCIAL_AND_COMMUNICATION" : 11,
+      "ENTERTAINMENT_AND_SPORTS" : 4,
+      "LIFESTYLE" : 65,
+      "UTILITIES" : 9,
+      "BUSINESS" : 2,
+      "MUSIC" : 4
+   },
+   "Shopping/Holidays" : {
+      "TRAVEL" : 23,
+      "UTILITIES" : 16,
+      "LIFESTYLE" : 11,
+      "BUSINESS" : 7,
+      "GAMES" : 35,
+      "BOOKS_AND_REFERENCE" : 4
+   },
+   "News/Media" : {
+      "ENTERTAINMENT_AND_SPORTS" : 50,
+      "MUSIC" : 50
+   },
+   "Shopping/Auctions" : {
+      "ENTERTAINMENT_AND_SPORTS" : 12,
+      "SHOPPING" : 54,
+      "BUSINESS" : 16,
+      "NEWS_AND_WEATHER" : 10,
+      "BOOKS_AND_REFERENCE" : 7
+   },
+   "Arts/Photography" : {
+      "EDUCATION" : 50,
+      "LIFESTYLE" : 50
+   },
+   "Business" : {
+      "BUSINESS" : 100
+   },
+   "Home/Home_Improvement" : {
+      "HEALTH_AND_FITNESS" : 20,
+      "LIFESTYLE" : 35,
+      "SHOPPING" : 23,
+      "UTILITIES" : 8,
+      "BOOKS_AND_REFERENCE" : 12
+   },
+   "Home/Urban_Living" : {
+      "HEALTH_AND_FITNESS" : 24,
+      "ENTERTAINMENT_AND_SPORTS" : 6,
+      "TRAVEL" : 10,
+      "LIFESTYLE" : 12,
+      "SHOPPING" : 9,
+      "BOOKS_AND_REFERENCE" : 3,
+      "MUSIC" : 31
+   },
+   "Sports/Software" : {
+      "SOCIAL_AND_COMMUNICATION" : 9,
+      "ENTERTAINMENT_AND_SPORTS" : 18,
+      "UTILITIES" : 44,
+      "BUSINESS" : 20,
+      "MUSIC" : 7
+   },
+   "News/Internet_Broadcasts" : {
+      "SOCIAL_AND_COMMUNICATION" : 17,
+      "ENTERTAINMENT_AND_SPORTS" : 38,
+      "MUSIC" : 43
+   },
+   "Science/Chats_and_Forums" : {
+      "SOCIAL_AND_COMMUNICATION" : 100
+   },
+   "Recreation/Antiques" : {
+      "LIFESTYLE" : 33,
+      "UTILITIES" : 3,
+      "SHOPPING" : 7,
+      "BUSINESS" : 12,
+      "BOOKS_AND_REFERENCE" : 40
+   },
+   "Games/Tile_Games" : {
+      "GAMES" : 99
+   },
+   "Games/Card_Games" : {
+      "GAMES" : 98
+   },
+   "Business/Employment" : {
+      "UTILITIES" : 4,
+      "LIFESTYLE" : 4,
+      "BUSINESS" : 80,
+      "NEWS_AND_WEATHER" : 8
+   },
+   "Sports/Team_Handball" : {
+      "ENTERTAINMENT_AND_SPORTS" : 62,
+      "LIFESTYLE" : 8,
+      "GAMES" : 20,
+      "BOOKS_AND_REFERENCE" : 8
+   },
+   "Sports/Greyhound_Racing" : {
+      "ENTERTAINMENT_AND_SPORTS" : 59,
+      "EDUCATION" : 5,
+      "LIFESTYLE" : 5,
+      "GAMES" : 28
+   },
+   "Health/Support_Groups" : {
+      "SOCIAL_AND_COMMUNICATION" : 54,
+      "LIFESTYLE" : 20,
+      "EDUCATION" : 5,
+      "UTILITIES" : 3,
+      "BUSINESS" : 3,
+      "MUSIC" : 12
+   },
+   "Sports/Sepak_Takraw" : {},
+   "Society/Law" : {
+      "HEALTH_AND_FITNESS" : 8,
+      "ENTERTAINMENT_AND_SPORTS" : 10,
+      "LIFESTYLE" : 16,
+      "EDUCATION" : 9,
+      "BOOKS_AND_REFERENCE" : 55
+   },
+   "Business/Arts_and_Entertainment" : {
+      "ENTERTAINMENT_AND_SPORTS" : 100
+   },
+   "Shopping" : {
+      "SHOPPING" : 100
+   },
+   "Arts/Weblogs" : {
+      "SOCIAL_AND_COMMUNICATION" : 23,
+      "HEALTH_AND_FITNESS" : 11,
+      "ENTERTAINMENT_AND_SPORTS" : 16,
+      "NEWS_AND_WEATHER" : 38,
+      "BUSINESS" : 10
+   },
+   "Games/Paper_and_Pencil" : {
+      "ENTERTAINMENT_AND_SPORTS" : 20,
+      "UTILITIES" : 18,
+      "LIFESTYLE" : 10,
+      "EDUCATION" : 11,
+      "BUSINESS" : 10,
+      "GAMES" : 28
+   },
+   "Arts/Television" : {
+      "ENTERTAINMENT_AND_SPORTS" : 84,
+      "MUSIC" : 15
+   },
+   "Reference/Libraries" : {},
+   "Recreation/Drugs" : {
+      "HEALTH_AND_FITNESS" : 79,
+      "GAMES" : 12,
+      "BOOKS_AND_REFERENCE" : 7
+   },
+   "Health/Home_Health" : {
+      "HEALTH_AND_FITNESS" : 100
+   },
+   "Shopping/Home_and_Garden" : {
+      "LIFESTYLE" : 36,
+      "UTILITIES" : 25,
+      "EDUCATION" : 9,
+      "SHOPPING" : 9,
+      "BUSINESS" : 2,
+      "BOOKS_AND_REFERENCE" : 15
+   },
+   "Home/Homeowners" : {
+      "UTILITIES" : 17,
+      "LIFESTYLE" : 19,
+      "EDUCATION" : 17,
+      "BUSINESS" : 30,
+      "BOOKS_AND_REFERENCE" : 10
+   },
+   "Home/Homemaking" : {
+      "HEALTH_AND_FITNESS" : 37,
+      "LIFESTYLE" : 31,
+      "BOOKS_AND_REFERENCE" : 30
+   },
+   "Computers/Hacking" : {
+      "UTILITIES" : 24,
+      "LIFESTYLE" : 8,
+      "NEWS_AND_WEATHER" : 30,
+      "BUSINESS" : 8,
+      "BOOKS_AND_REFERENCE" : 29
+   },
+   "News/Current_Events" : {
+      "HEALTH_AND_FITNESS" : 10,
+      "ENTERTAINMENT_AND_SPORTS" : 15,
+      "TRAVEL" : 12,
+      "UTILITIES" : 3,
+      "LIFESTYLE" : 3,
+      "NEWS_AND_WEATHER" : 37,
+      "BUSINESS" : 15
+   },
+   "Computers/Mobile_Computing" : {
+      "SOCIAL_AND_COMMUNICATION" : 32,
+      "ENTERTAINMENT_AND_SPORTS" : 5,
+      "UTILITIES" : 9,
+      "LIFESTYLE" : 9,
+      "SHOPPING" : 7,
+      "BUSINESS" : 30,
+      "MUSIC" : 5
+   },
+   "Games/History" : {
+      "SOCIAL_AND_COMMUNICATION" : 11,
+      "ENTERTAINMENT_AND_SPORTS" : 7,
+      "UTILITIES" : 20,
+      "LIFESTYLE" : 20,
+      "EDUCATION" : 12,
+      "BUSINESS" : 10,
+      "GAMES" : 16
+   },
+   "Sports/Petanque" : {
+      "ENTERTAINMENT_AND_SPORTS" : 48,
+      "GAMES" : 51
+   },
+   "Arts/Bodyart" : {
+      "SOCIAL_AND_COMMUNICATION" : 10,
+      "ENTERTAINMENT_AND_SPORTS" : 23,
+      "LIFESTYLE" : 24,
+      "EDUCATION" : 4,
+      "GAMES" : 12,
+      "BOOKS_AND_REFERENCE" : 16,
+      "MUSIC" : 5
+   },
+   "Sports/Boxing" : {
+      "ENTERTAINMENT_AND_SPORTS" : 10,
+      "GAMES" : 88
+   },
+   "Science/Employment" : {
+      "UTILITIES" : 4,
+      "LIFESTYLE" : 4,
+      "BUSINESS" : 80,
+      "NEWS_AND_WEATHER" : 8
+   },
+   "Computers/News_and_Media" : {
+      "NEWS_AND_WEATHER" : 100
+   },
+   "Shopping/Food" : {
+      "HEALTH_AND_FITNESS" : 29,
+      "LIFESTYLE" : 20,
+      "TRAVEL" : 10,
+      "SHOPPING" : 8,
+      "GAMES" : 23
+   },
+   "Science/Physics" : {
+      "EDUCATION" : 20,
+      "LIFESTYLE" : 4,
+      "GAMES" : 61,
+      "BOOKS_AND_REFERENCE" : 13
+   },
+   "Shopping/Directories" : {
+      "UTILITIES" : 62,
+      "TRAVEL" : 20,
+      "SHOPPING" : 9,
+      "MUSIC" : 7
+   },
+   "Recreation/Scouting" : {
+      "ENTERTAINMENT_AND_SPORTS" : 8,
+      "TRAVEL" : 42,
+      "LIFESTYLE" : 27,
+      "UTILITIES" : 7,
+      "BOOKS_AND_REFERENCE" : 12
+   },
+   "Computers/Education" : {
+      "EDUCATION" : 100
+   },
+   "Arts/Periods_and_Movements" : {
+      "HEALTH_AND_FITNESS" : 46,
+      "EDUCATION" : 7,
+      "BUSINESS" : 3,
+      "BOOKS_AND_REFERENCE" : 13,
+      "ENTERTAINMENT_AND_SPORTS" : 8,
+      "UTILITIES" : 3,
+      "LIFESTYLE" : 8,
+      "TRAVEL" : 7
+   },
+   "Reference/Museums" : {
+      "TRAVEL" : 83,
+      "EDUCATION" : 16
+   },
+   "Health/Resources" : {
+      "HEALTH_AND_FITNESS" : 32,
+      "UTILITIES" : 9,
+      "BUSINESS" : 16,
+      "GAMES" : 11,
+      "BOOKS_AND_REFERENCE" : 18
+   },
+   "Business/Chemicals" : {
+      "HEALTH_AND_FITNESS" : 21,
+      "EDUCATION" : 31,
+      "UTILITIES" : 3,
+      "LIFESTYLE" : 3,
+      "BUSINESS" : 12,
+      "BOOKS_AND_REFERENCE" : 26
+   },
+   "Sports/Running" : {
+      "HEALTH_AND_FITNESS" : 12,
+      "SHOPPING" : 9,
+      "TRAVEL" : 7,
+      "GAMES" : 69
+   },
+   "Science/Biology" : {
+      "HEALTH_AND_FITNESS" : 21,
+      "EDUCATION" : 56,
+      "GAMES" : 10,
+      "BOOKS_AND_REFERENCE" : 11
+   },
+   "Sports/Darts" : {
+      "ENTERTAINMENT_AND_SPORTS" : 27,
+      "GAMES" : 71
+   },
+   "Science/Publications" : {
+      "TRAVEL" : 21,
+      "UTILITIES" : 3,
+      "LIFESTYLE" : 3,
+      "NEWS_AND_WEATHER" : 47,
+      "BUSINESS" : 11,
+      "BOOKS_AND_REFERENCE" : 12
+   },
+   "Society/Religion_and_Spirituality" : {
+      "SOCIAL_AND_COMMUNICATION" : 32,
+      "LIFESTYLE" : 34,
+      "BOOKS_AND_REFERENCE" : 33
+   },
+   "Health/Occupational_Health_and_Safety" : {
+      "HEALTH_AND_FITNESS" : 28,
+      "EDUCATION" : 24,
+      "BUSINESS" : 31,
+      "BOOKS_AND_REFERENCE" : 15
+   },
+   "Recreation/Outdoors" : {
+      "ENTERTAINMENT_AND_SPORTS" : 7,
+      "TRAVEL" : 83,
+      "LIFESTYLE" : 4,
+      "BOOKS_AND_REFERENCE" : 4
+   },
+   "Business/Accounting" : {
+      "BUSINESS" : 87,
+      "BOOKS_AND_REFERENCE" : 12
+   },
+   "Arts/Magazines_and_E-zines" : {
+      "NEWS_AND_WEATHER" : 100
+   },
+   "Health/Organizations" : {
+      "SOCIAL_AND_COMMUNICATION" : 11,
+      "ENTERTAINMENT_AND_SPORTS" : 9,
+      "TRAVEL" : 9,
+      "EDUCATION" : 7,
+      "BUSINESS" : 42,
+      "GAMES" : 8,
+      "BOOKS_AND_REFERENCE" : 10
+   },
+   "Business/Information_Technology" : {
+      "HEALTH_AND_FITNESS" : 10,
+      "EDUCATION" : 22,
+      "UTILITIES" : 4,
+      "LIFESTYLE" : 4,
+      "NEWS_AND_WEATHER" : 30,
+      "BUSINESS" : 27
+   },
+   "Society/Folklore" : {
+      "ENTERTAINMENT_AND_SPORTS" : 8,
+      "LIFESTYLE" : 27,
+      "BOOKS_AND_REFERENCE" : 52,
+      "MUSIC" : 11
+   },
+   "Sports/Youth_and_High_School" : {
+      "ENTERTAINMENT_AND_SPORTS" : 50,
+      "EDUCATION" : 14,
+      "LIFESTYLE" : 11,
+      "GAMES" : 21
+   },
+   "Shopping/Niche" : {
+      "HEALTH_AND_FITNESS" : 12,
+      "ENTERTAINMENT_AND_SPORTS" : 30,
+      "TRAVEL" : 7,
+      "BUSINESS" : 11,
+      "GAMES" : 8,
+      "BOOKS_AND_REFERENCE" : 30
+   },
+   "Home/Personal_Finance" : {
+      "BUSINESS" : 100
+   },
+   "Sports/Rodeo" : {
+      "SOCIAL_AND_COMMUNICATION" : 7,
+      "ENTERTAINMENT_AND_SPORTS" : 53,
+      "UTILITIES" : 11,
+      "TRAVEL" : 10,
+      "GAMES" : 8
+   },
+   "Society/Work" : {
+      "ENTERTAINMENT_AND_SPORTS" : 9,
+      "UTILITIES" : 16,
+      "LIFESTYLE" : 12,
+      "BUSINESS" : 60
+   },
+   "Sports/Laser_Games" : {
+      "GAMES" : 99
+   },
+   "Computers/Shopping" : {
+      "SHOPPING" : 100
+   },
+   "Sports/Animal_Sports" : {
+      "ENTERTAINMENT_AND_SPORTS" : 7,
+      "EDUCATION" : 34,
+      "LIFESTYLE" : 14,
+      "GAMES" : 12,
+      "BOOKS_AND_REFERENCE" : 5,
+      "MUSIC" : 23
+   },
+   "Reference/Flags" : {
+      "LIFESTYLE" : 20,
+      "EDUCATION" : 12,
+      "GAMES" : 46,
+      "BOOKS_AND_REFERENCE" : 20
+   },
+   "Shopping/Music" : {
+      "MUSIC" : 100
+   },
+   "Reference/Directories" : {
+      "UTILITIES" : 62,
+      "TRAVEL" : 20,
+      "SHOPPING" : 9,
+      "MUSIC" : 7
+   },
+   "Computers/CAD_and_CAM" : {
+      "UTILITIES" : 33,
+      "LIFESTYLE" : 33,
+      "BUSINESS" : 31
+   },
+   "Sports/Golf" : {
+      "ENTERTAINMENT_AND_SPORTS" : 27,
+      "GAMES" : 71
+   },
+   "Sports/Lumberjack" : {
+      "ENTERTAINMENT_AND_SPORTS" : 36,
+      "UTILITIES" : 21,
+      "GAMES" : 40
+   },
+   "Arts/People" : {
+      "SOCIAL_AND_COMMUNICATION" : 47,
+      "ENTERTAINMENT_AND_SPORTS" : 17,
+      "LIFESTYLE" : 6,
+      "GAMES" : 10,
+      "BOOKS_AND_REFERENCE" : 16
+   },
+   "Arts/Illustration" : {
+      "ENTERTAINMENT_AND_SPORTS" : 32,
+      "EDUCATION" : 27,
+      "LIFESTYLE" : 18,
+      "GAMES" : 21
+   },
+   "Recreation/Kites" : {
+      "ENTERTAINMENT_AND_SPORTS" : 34,
+      "LIFESTYLE" : 6,
+      "SHOPPING" : 9,
+      "GAMES" : 42,
+      "BOOKS_AND_REFERENCE" : 6
+   },
+   "Sports/Rope_Skipping" : {
+      "HEALTH_AND_FITNESS" : 24,
+      "ENTERTAINMENT_AND_SPORTS" : 10,
+      "GAMES" : 63
+   },
+   "Games/Coin-Op" : {
+      "ENTERTAINMENT_AND_SPORTS" : 19,
+      "GAMES" : 60,
+      "NEWS_AND_WEATHER" : 8,
+      "MUSIC" : 10
+   },
+   "Health/Aging" : {
+      "ENTERTAINMENT_AND_SPORTS" : 34,
+      "EDUCATION" : 4,
+      "LIFESTYLE" : 4,
+      "GAMES" : 55
+   },
+   "Sports/Extreme_Sports" : {
+      "ENTERTAINMENT_AND_SPORTS" : 49,
+      "LIFESTYLE" : 5,
+      "GAMES" : 28,
+      "BOOKS_AND_REFERENCE" : 5,
+      "MUSIC" : 9
+   },
+   "Sports/Paddleball" : {
+      "GAMES" : 99
+   },
+   "Recreation/Aviation" : {
+      "UTILITIES" : 45,
+      "TRAVEL" : 29,
+      "GAMES" : 25
+   },
+   "Computers/Multimedia" : {
+      "ENTERTAINMENT_AND_SPORTS" : 50,
+      "MUSIC" : 50
+   },
+   "Computers/Usenet" : {
+      "SOCIAL_AND_COMMUNICATION" : 60,
+      "ENTERTAINMENT_AND_SPORTS" : 10,
+      "UTILITIES" : 6,
+      "LIFESTYLE" : 6,
+      "BUSINESS" : 6,
+      "MUSIC" : 10
+   },
+   "Business/Automotive" : {
+      "UTILITIES" : 25,
+      "LIFESTYLE" : 11,
+      "TRAVEL" : 17,
+      "GAMES" : 36,
+      "BUSINESS" : 8
+   },
+   "Sports/Goalball" : {},
+   "News/Personalized_News" : {
+      "ENTERTAINMENT_AND_SPORTS" : 28,
+      "NEWS_AND_WEATHER" : 64,
+      "MUSIC" : 5
+   },
+   "Arts/Comics" : {
+      "BOOKS_AND_REFERENCE" : 100
+   },
+   "Arts/Writers_Resources" : {
+      "EDUCATION" : 27,
+      "LIFESTYLE" : 16,
+      "BUSINESS" : 20,
+      "BOOKS_AND_REFERENCE" : 35
+   },
+   "Business/Associations" : {
+      "HEALTH_AND_FITNESS" : 12,
+      "ENTERTAINMENT_AND_SPORTS" : 17,
+      "LIFESTYLE" : 11,
+      "EDUCATION" : 10,
+      "GAMES" : 22,
+      "BUSINESS" : 16,
+      "BOOKS_AND_REFERENCE" : 7
+   },
+   "Recreation/Birding" : {
+      "LIFESTYLE" : 7,
+      "BUSINESS" : 8,
+      "BOOKS_AND_REFERENCE" : 83
+   },
+   "Shopping/Entertainment" : {
+      "ENTERTAINMENT_AND_SPORTS" : 100
+   },
+   "Health/Public_Health_and_Safety" : {
+      "HEALTH_AND_FITNESS" : 99
+   },
+   "Science/Educational_Resources" : {
+      "HEALTH_AND_FITNESS" : 11,
+      "ENTERTAINMENT_AND_SPORTS" : 12,
+      "EDUCATION" : 54,
+      "BUSINESS" : 9,
+      "BOOKS_AND_REFERENCE" : 12
+   },
+   "Business/Retail_Trade" : {
+      "ENTERTAINMENT_AND_SPORTS" : 10,
+      "TRAVEL" : 9,
+      "BUSINESS" : 79
+   },
+   "Science/Reference" : {
+      "BOOKS_AND_REFERENCE" : 100
+   },
+   "Society/Relationships" : {
+      "SOCIAL_AND_COMMUNICATION" : 40,
+      "ENTERTAINMENT_AND_SPORTS" : 18,
+      "LIFESTYLE" : 41
+   },
+   "Computers/Computer_Science" : {
+      "EDUCATION" : 32,
+      "NEWS_AND_WEATHER" : 20,
+      "GAMES" : 7,
+      "BOOKS_AND_REFERENCE" : 40
+   },
+   "Health/Men's_Health" : {
+      "HEALTH_AND_FITNESS" : 92,
+      "NEWS_AND_WEATHER" : 7
+   },
+   "Science/Agriculture" : {
+      "GAMES" : 65,
+      "NEWS_AND_WEATHER" : 25,
+      "BUSINESS" : 7
+   },
+   "Computers/Speech_Technology" : {
+      "EDUCATION" : 21,
+      "UTILITIES" : 2,
+      "LIFESTYLE" : 2,
+      "BUSINESS" : 2,
+      "BOOKS_AND_REFERENCE" : 58,
+      "MUSIC" : 12
+   },
+   "Games/Trading_Card_Games" : {
+      "GAMES" : 98
+   },
+   "Health/Weight_Loss" : {
+      "HEALTH_AND_FITNESS" : 99
+   },
+   "Computers" : {
+      "SOCIAL_AND_COMMUNICATION" : 11,
+      "UTILITIES" : 21,
+      "LIFESTYLE" : 11,
+      "BUSINESS" : 39,
+      "NEWS_AND_WEATHER" : 8,
+      "GAMES" : 7
+   },
+   "Home/Moving_and_Relocating" : {
+      "SOCIAL_AND_COMMUNICATION" : 7,
+      "UTILITIES" : 15,
+      "LIFESTYLE" : 17,
+      "TRAVEL" : 19,
+      "BUSINESS" : 16,
+      "NEWS_AND_WEATHER" : 10,
+      "GAMES" : 9
+   },
+   "Health/Medicine" : {
+      "HEALTH_AND_FITNESS" : 89,
+      "LIFESTYLE" : 5,
+      "BOOKS_AND_REFERENCE" : 5
+   },
+   "News/Weather" : {
+      "NEWS_AND_WEATHER" : 100
+   },
+   "Sports/Adventure_Racing" : {
+      "UTILITIES" : 7,
+      "GAMES" : 91
+   },
+   "Arts/Awards" : {
+      "ENTERTAINMENT_AND_SPORTS" : 9,
+      "UTILITIES" : 18,
+      "EDUCATION" : 14,
+      "LIFESTYLE" : 6,
+      "GAMES" : 39,
+      "BOOKS_AND_REFERENCE" : 10
+   },
+   "Home/Software" : {
+      "SOCIAL_AND_COMMUNICATION" : 9,
+      "ENTERTAINMENT_AND_SPORTS" : 18,
+      "UTILITIES" : 44,
+      "BUSINESS" : 20,
+      "MUSIC" : 7
+   },
+   "Sports/Events" : {
+      "ENTERTAINMENT_AND_SPORTS" : 23,
+      "UTILITIES" : 18,
+      "LIFESTYLE" : 17,
+      "TRAVEL" : 18,
+      "BUSINESS" : 19
+   },
+   "Business/Agriculture_and_Forestry" : {
+      "UTILITIES" : 11,
+      "LIFESTYLE" : 7,
+      "EDUCATION" : 13,
+      "BUSINESS" : 36,
+      "GAMES" : 8,
+      "BOOKS_AND_REFERENCE" : 11
+   },
+   "Reference/Maps" : {
+      "TRAVEL" : 88,
+      "BOOKS_AND_REFERENCE" : 11
+   },
+   "Business/Textiles_and_Nonwovens" : {},
+   "Recreation/Knives" : {
+      "ENTERTAINMENT_AND_SPORTS" : 12,
+      "UTILITIES" : 47,
+      "SHOPPING" : 18,
+      "GAMES" : 21
+   },
+   "Society/Subcultures" : {
+      "LIFESTYLE" : 44,
+      "UTILITIES" : 2,
+      "NEWS_AND_WEATHER" : 20,
+      "GAMES" : 10,
+      "BUSINESS" : 2,
+      "BOOKS_AND_REFERENCE" : 9
+   },
+   "Arts/Graphic_Design" : {
+      "HEALTH_AND_FITNESS" : 8,
+      "UTILITIES" : 8,
+      "LIFESTYLE" : 28,
+      "EDUCATION" : 10,
+      "BUSINESS" : 8,
+      "GAMES" : 33
+   },
+   "Health/Mental_Health" : {
+      "HEALTH_AND_FITNESS" : 92,
+      "EDUCATION" : 7
+   },
+   "News/Magazines_and_E-zines" : {
+      "NEWS_AND_WEATHER" : 100
+   },
+   "Science/Technology" : {
+      "SOCIAL_AND_COMMUNICATION" : 10,
+      "HEALTH_AND_FITNESS" : 7,
+      "NEWS_AND_WEATHER" : 72,
+      "BUSINESS" : 9
+   },
+   "Sports/PesÃ¤pallo" : {
+      "ENTERTAINMENT_AND_SPORTS" : 48,
+      "GAMES" : 51
+   },
+   "Business/Resources" : {
+      "HEALTH_AND_FITNESS" : 32,
+      "UTILITIES" : 9,
+      "BUSINESS" : 16,
+      "GAMES" : 11,
+      "BOOKS_AND_REFERENCE" : 18
+   },
+   "Arts/Literature" : {
+      "EDUCATION" : 29,
+      "LIFESTYLE" : 10,
+      "GAMES" : 19,
+      "BOOKS_AND_REFERENCE" : 41
+   },
+   "Health/Senses" : {
+      "LIFESTYLE" : 26,
+      "UTILITIES" : 4,
+      "NEWS_AND_WEATHER" : 41,
+      "BUSINESS" : 4,
+      "GAMES" : 9,
+      "BOOKS_AND_REFERENCE" : 13
+   },
+   "Shopping/Weddings" : {
+      "ENTERTAINMENT_AND_SPORTS" : 7,
+      "UTILITIES" : 13,
+      "LIFESTYLE" : 33,
+      "EDUCATION" : 8,
+      "BUSINESS" : 13,
+      "GAMES" : 10,
+      "BOOKS_AND_REFERENCE" : 10
+   },
+   "Recreation" : {
+      "ENTERTAINMENT_AND_SPORTS" : 9,
+      "TRAVEL" : 47,
+      "UTILITIES" : 10,
+      "EDUCATION" : 10,
+      "LIFESTYLE" : 8,
+      "BUSINESS" : 12
+   },
+   "Health/Nutrition" : {
+      "HEALTH_AND_FITNESS" : 99
+   },
+   "Business/Healthcare" : {
+      "HEALTH_AND_FITNESS" : 81,
+      "BUSINESS" : 16
+   },
+   "Sports/Water_Sports" : {
+      "HEALTH_AND_FITNESS" : 8,
+      "ENTERTAINMENT_AND_SPORTS" : 42,
+      "LIFESTYLE" : 3,
+      "NEWS_AND_WEATHER" : 20,
+      "GAMES" : 9,
+      "BOOKS_AND_REFERENCE" : 14
+   },
+   "Shopping/Recreation" : {
+      "ENTERTAINMENT_AND_SPORTS" : 9,
+      "TRAVEL" : 49,
+      "UTILITIES" : 10,
+      "EDUCATION" : 10,
+      "LIFESTYLE" : 8,
+      "BUSINESS" : 11
+   },
+   "Arts/Chats_and_Forums" : {
+      "SOCIAL_AND_COMMUNICATION" : 100
+   },
+   "Science/Instruments_and_Supplies" : {
+      "SOCIAL_AND_COMMUNICATION" : 10,
+      "EDUCATION" : 24,
+      "TRAVEL" : 18,
+      "SHOPPING" : 10,
+      "UTILITIES" : 7,
+      "BOOKS_AND_REFERENCE" : 15,
+      "MUSIC" : 12
+   },
+   "Business/Management" : {
+      "UTILITIES" : 46,
+      "LIFESTYLE" : 12,
+      "TRAVEL" : 8,
+      "BUSINESS" : 31
+   },
+   "Society" : {
+      "SOCIAL_AND_COMMUNICATION" : 9,
+      "HEALTH_AND_FITNESS" : 10,
+      "EDUCATION" : 38,
+      "LIFESTYLE" : 12,
+      "GAMES" : 8,
+      "BOOKS_AND_REFERENCE" : 12,
+      "MUSIC" : 7
+   },
+   "Sports/Boomerang" : {
+      "ENTERTAINMENT_AND_SPORTS" : 30,
+      "UTILITIES" : 6,
+      "LIFESTYLE" : 16,
+      "BUSINESS" : 24,
+      "GAMES" : 21
+   },
+   "Recreation/Boating" : {
+      "SOCIAL_AND_COMMUNICATION" : 36,
+      "LIFESTYLE" : 10,
+      "TRAVEL" : 7,
+      "NEWS_AND_WEATHER" : 12,
+      "GAMES" : 10,
+      "BOOKS_AND_REFERENCE" : 8
+   },
+   "Business/Real_Estate" : {
+      "LIFESTYLE" : 83,
+      "BUSINESS" : 16
+   },
+   "Recreation/Motorcycles" : {
+      "SOCIAL_AND_COMMUNICATION" : 18,
+      "EDUCATION" : 22,
+      "TRAVEL" : 16,
+      "GAMES" : 41
+   },
+   "Arts/Entertainment" : {
+      "ENTERTAINMENT_AND_SPORTS" : 100
+   },
+   "Health/Beauty" : {
+      "SOCIAL_AND_COMMUNICATION" : 11,
+      "HEALTH_AND_FITNESS" : 29,
+      "EDUCATION" : 10,
+      "LIFESTYLE" : 29,
+      "GAMES" : 18
+   },
+   "Science/Organizations" : {
+      "SOCIAL_AND_COMMUNICATION" : 11,
+      "ENTERTAINMENT_AND_SPORTS" : 9,
+      "TRAVEL" : 9,
+      "EDUCATION" : 7,
+      "BUSINESS" : 42,
+      "GAMES" : 8,
+      "BOOKS_AND_REFERENCE" : 10
+   },
+   "Sports/Footbag" : {
+      "HEALTH_AND_FITNESS" : 10,
+      "ENTERTAINMENT_AND_SPORTS" : 26,
+      "LIFESTYLE" : 21,
+      "GAMES" : 40
+   },
+   "Home/Personal_Organization" : {
+      "UTILITIES" : 12,
+      "LIFESTYLE" : 19,
+      "SHOPPING" : 12,
+      "TRAVEL" : 8,
+      "BUSINESS" : 44
+   },
+   "Recreation/Guns" : {
+      "GAMES" : 100
+   },
+   "News" : {
+      "NEWS_AND_WEATHER" : 100
+   },
+   "Business/Small_Business" : {
+      "SOCIAL_AND_COMMUNICATION" : 12,
+      "UTILITIES" : 17,
+      "LIFESTYLE" : 6,
+      "BUSINESS" : 51,
+      "BOOKS_AND_REFERENCE" : 10
+   },
+   "Games/Puzzles" : {
+      "GAMES" : 100
+   },
+   "Sports/Track_and_Field" : {
+      "ENTERTAINMENT_AND_SPORTS" : 25,
+      "UTILITIES" : 10,
+      "LIFESTYLE" : 10,
+      "TRAVEL" : 7,
+      "BUSINESS" : 33,
+      "BOOKS_AND_REFERENCE" : 12
+   },
+   "Sports/Korfball" : {
+      "ENTERTAINMENT_AND_SPORTS" : 50,
+      "LIFESTYLE" : 12,
+      "BOOKS_AND_REFERENCE" : 37
+   },
+   "Computers/Hardware" : {
+      "SOCIAL_AND_COMMUNICATION" : 7,
+      "UTILITIES" : 58,
+      "LIFESTYLE" : 11,
+      "BUSINESS" : 11,
+      "NEWS_AND_WEATHER" : 10
+   },
+   "Sports/Wrestling" : {
+      "ENTERTAINMENT_AND_SPORTS" : 87,
+      "GAMES" : 12
+   },
+   "Computers/E-Books" : {
+      "BOOKS_AND_REFERENCE" : 99
+   },
+   "Computers/Ethics" : {
+      "EDUCATION" : 30,
+      "UTILITIES" : 3,
+      "LIFESTYLE" : 13,
+      "BUSINESS" : 11,
+      "NEWS_AND_WEATHER" : 7,
+      "BOOKS_AND_REFERENCE" : 30
+   },
+   "Arts/Digital" : {
+      "ENTERTAINMENT_AND_SPORTS" : 12,
+      "UTILITIES" : 31,
+      "LIFESTYLE" : 28,
+      "NEWS_AND_WEATHER" : 11,
+      "BOOKS_AND_REFERENCE" : 15
+   },
+   "Society/Death" : {
+      "ENTERTAINMENT_AND_SPORTS" : 10,
+      "LIFESTYLE" : 4,
+      "GAMES" : 79,
+      "BOOKS_AND_REFERENCE" : 4
+   },
+   "Business/Transportation_and_Logistics" : {
+      "TRAVEL" : 100
+   },
+   "Science/Social_Sciences" : {
+      "SOCIAL_AND_COMMUNICATION" : 10,
+      "EDUCATION" : 42,
+      "SHOPPING" : 7,
+      "BOOKS_AND_REFERENCE" : 38
+   },
+   "Computers/Artificial_Intelligence" : {
+      "SOCIAL_AND_COMMUNICATION" : 11,
+      "ENTERTAINMENT_AND_SPORTS" : 57,
+      "GAMES" : 19,
+      "BUSINESS" : 10
+   },
+   "Sports/Bocce" : {
+      "ENTERTAINMENT_AND_SPORTS" : 25,
+      "GAMES" : 73
+   },
+   "News/Newspapers" : {
+      "NEWS_AND_WEATHER" : 100
+   },
+   "Reference/Thesauri" : {
+      "HEALTH_AND_FITNESS" : 11,
+      "UTILITIES" : 12,
+      "BOOKS_AND_REFERENCE" : 75
+   },
+   "Health/Fitness" : {
+      "HEALTH_AND_FITNESS" : 100
+   },
+   "Business/Marketing_and_Advertising" : {
+      "ENTERTAINMENT_AND_SPORTS" : 6,
+      "LIFESTYLE" : 20,
+      "BUSINESS" : 16,
+      "GAMES" : 10,
+      "BOOKS_AND_REFERENCE" : 27,
+      "MUSIC" : 18
+   },
+   "Sports/Handball" : {
+      "ENTERTAINMENT_AND_SPORTS" : 83,
+      "GAMES" : 16
+   },
+   "Sports/Jai_Alai" : {
+      "TRAVEL" : 100
+   },
+   "Shopping/Crafts" : {
+      "SHOPPING" : 20,
+      "LIFESTYLE" : 24,
+      "UTILITIES" : 4,
+      "TRAVEL" : 9,
+      "GAMES" : 36,
+      "BUSINESS" : 4
+   },
+   "Business/Opportunities" : {
+      "UTILITIES" : 4,
+      "LIFESTYLE" : 4,
+      "BUSINESS" : 82,
+      "BOOKS_AND_REFERENCE" : 9
+   },
+   "News/Alternative" : {
+      "ENTERTAINMENT_AND_SPORTS" : 20,
+      "UTILITIES" : 31,
+      "GAMES" : 18,
+      "NEWS_AND_WEATHER" : 9,
+      "MUSIC" : 10
+   },
+   "Recreation/Locks" : {
+      "ENTERTAINMENT_AND_SPORTS" : 23,
+      "UTILITIES" : 61,
+      "LIFESTYLE" : 3,
+      "BUSINESS" : 3,
+      "GAMES" : 7
+   },
+   "Sports/Resources" : {
+      "HEALTH_AND_FITNESS" : 32,
+      "UTILITIES" : 9,
+      "BUSINESS" : 16,
+      "GAMES" : 11,
+      "BOOKS_AND_REFERENCE" : 18
+   },
+   "News/Analysis_and_Opinion" : {
+      "ENTERTAINMENT_AND_SPORTS" : 18,
+      "EDUCATION" : 9,
+      "NEWS_AND_WEATHER" : 43,
+      "BUSINESS" : 28
+   },
+   "News/Extended_Coverage" : {
+      "ENTERTAINMENT_AND_SPORTS" : 20,
+      "TRAVEL" : 15,
+      "UTILITIES" : 10,
+      "GAMES" : 22,
+      "BOOKS_AND_REFERENCE" : 31
+   },
+   "Recreation/Pets" : {
+      "SOCIAL_AND_COMMUNICATION" : 9,
+      "GAMES" : 90
+   },
+   "Business/Human_Resources" : {
+      "HEALTH_AND_FITNESS" : 19,
+      "EDUCATION" : 10,
+      "UTILITIES" : 2,
+      "LIFESTYLE" : 2,
+      "BUSINESS" : 36,
+      "BOOKS_AND_REFERENCE" : 27
+   },
+   "Sports/Volleyball" : {
+      "ENTERTAINMENT_AND_SPORTS" : 34,
+      "LIFESTYLE" : 5,
+      "GAMES" : 53,
+      "BOOKS_AND_REFERENCE" : 5
+   },
+   "Shopping/Death_Care" : {
+      "HEALTH_AND_FITNESS" : 14,
+      "LIFESTYLE" : 27,
+      "BUSINESS" : 10,
+      "GAMES" : 8,
+      "BOOKS_AND_REFERENCE" : 37
+   },
+   "Business/Wholesale_Trade" : {
+      "SHOPPING" : 71,
+      "BUSINESS" : 28
+   },
+   "Sports/Kabbadi" : {
+      "ENTERTAINMENT_AND_SPORTS" : 100
+   },
+   "Computers/Virtual_Reality" : {
+      "ENTERTAINMENT_AND_SPORTS" : 8,
+      "TRAVEL" : 17,
+      "LIFESTYLE" : 13,
+      "EDUCATION" : 4,
+      "GAMES" : 43,
+      "MUSIC" : 10
+   },
+   "Arts/Animation" : {
+      "ENTERTAINMENT_AND_SPORTS" : 21,
+      "EDUCATION" : 12,
+      "LIFESTYLE" : 5,
+      "UTILITIES" : 9,
+      "NEWS_AND_WEATHER" : 39
+   },
+   "Business/Aerospace_and_Defense" : {
+      "SOCIAL_AND_COMMUNICATION" : 14,
+      "EDUCATION" : 7,
+      "LIFESTYLE" : 7,
+      "BUSINESS" : 36,
+      "NEWS_AND_WEATHER" : 18
+   },
+   "Recreation/Food" : {
+      "HEALTH_AND_FITNESS" : 29,
+      "LIFESTYLE" : 20,
+      "TRAVEL" : 10,
+      "SHOPPING" : 8,
+      "GAMES" : 23
+   },
+   "Sports/Tennis" : {
+      "ENTERTAINMENT_AND_SPORTS" : 39,
+      "GAMES" : 60
+   },
+   "Computers/Systems" : {
+      "UTILITIES" : 51,
+      "LIFESTYLE" : 14,
+      "EDUCATION" : 8,
+      "BUSINESS" : 6,
+      "BOOKS_AND_REFERENCE" : 8
+   },
+   "Computers/FAQs,_Help,_and_Tutorials" : {
+      "ENTERTAINMENT_AND_SPORTS" : 9,
+      "UTILITIES" : 13,
+      "LIFESTYLE" : 6,
+      "TRAVEL" : 7,
+      "EDUCATION" : 3,
+      "BUSINESS" : 27,
+      "GAMES" : 30
+   },
+   "Games" : {
+      "GAMES" : 98
+   },
+   "Health/Specific_Substances" : {
+      "HEALTH_AND_FITNESS" : 60,
+      "EDUCATION" : 12,
+      "LIFESTYLE" : 8,
+      "BUSINESS" : 10,
+      "BOOKS_AND_REFERENCE" : 7
+   },
+   "Health/Professions" : {
+      "UTILITIES" : 4,
+      "LIFESTYLE" : 4,
+      "BUSINESS" : 65,
+      "GAMES" : 9,
+      "BOOKS_AND_REFERENCE" : 17
+   },
+   "Business/E-Commerce" : {
+      "SOCIAL_AND_COMMUNICATION" : 11,
+      "ENTERTAINMENT_AND_SPORTS" : 12,
+      "SHOPPING" : 26,
+      "TRAVEL" : 9,
+      "BUSINESS" : 32,
+      "BOOKS_AND_REFERENCE" : 7
+   },
+   "Science/Directories" : {
+      "UTILITIES" : 62,
+      "TRAVEL" : 20,
+      "SHOPPING" : 9,
+      "MUSIC" : 7
+   },
+   "Shopping/General_Merchandise" : {
+      "ENTERTAINMENT_AND_SPORTS" : 7,
+      "SHOPPING" : 52,
+      "BUSINESS" : 29,
+      "NEWS_AND_WEATHER" : 10
+   },
+   "Sports/Lacrosse" : {
+      "ENTERTAINMENT_AND_SPORTS" : 68,
+      "GAMES" : 20,
+      "NEWS_AND_WEATHER" : 11
+   },
+   "Shopping/Vehicles" : {
+      "TRAVEL" : 29,
+      "UTILITIES" : 12,
+      "LIFESTYLE" : 12,
+      "GAMES" : 29,
+      "BUSINESS" : 8,
+      "NEWS_AND_WEATHER" : 7
+   },
+   "Society/Disabled" : {
+      "HEALTH_AND_FITNESS" : 16,
+      "UTILITIES" : 22,
+      "LIFESTYLE" : 11,
+      "GAMES" : 10,
+      "BUSINESS" : 3,
+      "MUSIC" : 34
+   },
+   "Sports/Racquetball" : {
+      "HEALTH_AND_FITNESS" : 49,
+      "ENTERTAINMENT_AND_SPORTS" : 29,
+      "SHOPPING" : 12,
+      "EDUCATION" : 8
+   },
+   "News/Chats_and_Forums" : {
+      "SOCIAL_AND_COMMUNICATION" : 100
+   },
+   "News/Breaking_News" : {
+      "ENTERTAINMENT_AND_SPORTS" : 50,
+      "NEWS_AND_WEATHER" : 49
+   },
+   "Society/Holidays" : {
+      "TRAVEL" : 23,
+      "UTILITIES" : 16,
+      "LIFESTYLE" : 11,
+      "BUSINESS" : 7,
+      "GAMES" : 35,
+      "BOOKS_AND_REFERENCE" : 4
+   },
+   "Home/Family" : {
+      "SOCIAL_AND_COMMUNICATION" : 9,
+      "LIFESTYLE" : 37,
+      "UTILITIES" : 17,
+      "GAMES" : 28,
+      "BUSINESS" : 7
+   },
+   "Health/Services" : {
+      "SOCIAL_AND_COMMUNICATION" : 12,
+      "UTILITIES" : 14,
+      "TRAVEL" : 10,
+      "LIFESTYLE" : 3,
+      "BUSINESS" : 46
+   },
+   "Games/Conventions" : {
+      "SOCIAL_AND_COMMUNICATION" : 12,
+      "ENTERTAINMENT_AND_SPORTS" : 12,
+      "TRAVEL" : 8,
+      "BUSINESS" : 21,
+      "BOOKS_AND_REFERENCE" : 45
+   },
+   "Home" : {
+      "HEALTH_AND_FITNESS" : 11,
+      "UTILITIES" : 38,
+      "LIFESTYLE" : 17,
+      "SHOPPING" : 9,
+      "BUSINESS" : 4,
+      "GAMES" : 10,
+      "BOOKS_AND_REFERENCE" : 6
+   },
+   "News/Colleges_and_Universities" : {
+      "ENTERTAINMENT_AND_SPORTS" : 74,
+      "EDUCATION" : 16,
+      "TRAVEL" : 9
+   },
+   "Computers/Mailing_Lists" : {
+      "SOCIAL_AND_COMMUNICATION" : 18,
+      "UTILITIES" : 12,
+      "LIFESTYLE" : 12,
+      "SHOPPING" : 23,
+      "TRAVEL" : 10,
+      "BUSINESS" : 21
+   },
+   "Business/Energy" : {
+      "ENTERTAINMENT_AND_SPORTS" : 41,
+      "UTILITIES" : 39,
+      "LIFESTYLE" : 4,
+      "BOOKS_AND_REFERENCE" : 4,
+      "MUSIC" : 10
+   },
+   "Arts/Design" : {
+      "SOCIAL_AND_COMMUNICATION" : 10,
+      "LIFESTYLE" : 42,
+      "UTILITIES" : 8,
+      "BUSINESS" : 20,
+      "BOOKS_AND_REFERENCE" : 15
+   },
+   "Arts/Architecture" : {
+      "TRAVEL" : 19,
+      "EDUCATION" : 18,
+      "LIFESTYLE" : 20,
+      "GAMES" : 12,
+      "BOOKS_AND_REFERENCE" : 15,
+      "MUSIC" : 10
+   },
+   "Shopping/Publications" : {
+      "TRAVEL" : 21,
+      "UTILITIES" : 3,
+      "LIFESTYLE" : 3,
+      "NEWS_AND_WEATHER" : 47,
+      "BUSINESS" : 11,
+      "BOOKS_AND_REFERENCE" : 12
+   },
+   "News/Weblogs" : {
+      "SOCIAL_AND_COMMUNICATION" : 23,
+      "HEALTH_AND_FITNESS" : 11,
+      "ENTERTAINMENT_AND_SPORTS" : 16,
+      "NEWS_AND_WEATHER" : 38,
+      "BUSINESS" : 10
+   },
+   "Health/Addictions" : {
+      "SOCIAL_AND_COMMUNICATION" : 9,
+      "HEALTH_AND_FITNESS" : 7,
+      "ENTERTAINMENT_AND_SPORTS" : 52,
+      "GAMES" : 28
+   },
+   "Sports/Motorsports" : {
+      "ENTERTAINMENT_AND_SPORTS" : 83,
+      "GAMES" : 8,
+      "BUSINESS" : 7
+   },
+   "Home/Emergency_Preparation" : {
+      "HEALTH_AND_FITNESS" : 61,
+      "UTILITIES" : 20,
+      "NEWS_AND_WEATHER" : 8,
+      "BOOKS_AND_REFERENCE" : 9
+   },
+   "Business/Industrial_Goods_and_Services" : {
+      "HEALTH_AND_FITNESS" : 10,
+      "BUSINESS" : 59,
+      "NEWS_AND_WEATHER" : 12,
+      "BOOKS_AND_REFERENCE" : 16
+   },
+   "Reference/Archives" : {
+      "EDUCATION" : 12,
+      "BUSINESS" : 2,
+      "BOOKS_AND_REFERENCE" : 12,
+      "MUSIC" : 4,
+      "SOCIAL_AND_COMMUNICATION" : 7,
+      "ENTERTAINMENT_AND_SPORTS" : 4,
+      "LIFESTYLE" : 2,
+      "UTILITIES" : 43,
+      "GAMES" : 10
+   },
+   "Science/Methods_and_Techniques" : {
+      "HEALTH_AND_FITNESS" : 14,
+      "ENTERTAINMENT_AND_SPORTS" : 11,
+      "UTILITIES" : 12,
+      "EDUCATION" : 8,
+      "BOOKS_AND_REFERENCE" : 31,
+      "MUSIC" : 21
+   },
+   "Sports/Netball" : {
+      "ENTERTAINMENT_AND_SPORTS" : 37,
+      "UTILITIES" : 3,
+      "LIFESTYLE" : 3,
+      "GAMES" : 14,
+      "NEWS_AND_WEATHER" : 13,
+      "BUSINESS" : 3,
+      "BOOKS_AND_REFERENCE" : 24
+   },
+   "Business/Customer_Service" : {
+      "SOCIAL_AND_COMMUNICATION" : 12,
+      "UTILITIES" : 17,
+      "LIFESTYLE" : 7,
+      "SHOPPING" : 9,
+      "BUSINESS" : 52
+   },
+   "Science/Events" : {
+      "ENTERTAINMENT_AND_SPORTS" : 23,
+      "UTILITIES" : 18,
+      "LIFESTYLE" : 17,
+      "TRAVEL" : 18,
+      "BUSINESS" : 19
+   },
+   "Science/Science_in_Society" : {
+      "SOCIAL_AND_COMMUNICATION" : 21,
+      "HEALTH_AND_FITNESS" : 7,
+      "LIFESTYLE" : 5,
+      "NEWS_AND_WEATHER" : 11,
+      "BOOKS_AND_REFERENCE" : 53
+   },
+   "News/Directories" : {
+      "UTILITIES" : 62,
+      "TRAVEL" : 20,
+      "SHOPPING" : 9,
+      "MUSIC" : 7
+   },
+   "Health/Search_Engines" : {
+      "ENTERTAINMENT_AND_SPORTS" : 9,
+      "UTILITIES" : 54,
+      "LIFESTYLE" : 3,
+      "BUSINESS" : 23,
+      "MUSIC" : 7
+   },
+   "Computers/Bulletin_Board_Systems" : {
+      "SOCIAL_AND_COMMUNICATION" : 25,
+      "ENTERTAINMENT_AND_SPORTS" : 12,
+      "LIFESTYLE" : 22,
+      "GAMES" : 27,
+      "MUSIC" : 12
+   },
+   "Recreation/Nudism" : {
+      "SOCIAL_AND_COMMUNICATION" : 46,
+      "ENTERTAINMENT_AND_SPORTS" : 21,
+      "LIFESTYLE" : 12,
+      "TRAVEL" : 10,
+      "GAMES" : 8
+   },
+   "Health/Animal" : {
+      "ENTERTAINMENT_AND_SPORTS" : 11,
+      "EDUCATION" : 53,
+      "GAMES" : 30,
+      "MUSIC" : 4
+   },
+   "Games/Miniatures" : {
+      "EDUCATION" : 26,
+      "LIFESTYLE" : 40,
+      "GAMES" : 10,
+      "NEWS_AND_WEATHER" : 8,
+      "BOOKS_AND_REFERENCE" : 5
+   },
+   "Computers/Open_Source" : {
+      "BUSINESS" : 6,
+      "NEWS_AND_WEATHER" : 7,
+      "BOOKS_AND_REFERENCE" : 12,
+      "MUSIC" : 3,
+      "SOCIAL_AND_COMMUNICATION" : 10,
+      "ENTERTAINMENT_AND_SPORTS" : 14,
+      "TRAVEL" : 12,
+      "UTILITIES" : 15,
+      "LIFESTYLE" : 6,
+      "GAMES" : 10
+   },
+   "Society/Paranormal" : {
+      "ENTERTAINMENT_AND_SPORTS" : 41,
+      "LIFESTYLE" : 27,
+      "GAMES" : 10,
+      "NEWS_AND_WEATHER" : 7,
+      "BOOKS_AND_REFERENCE" : 12
+   },
+   "Computers/Supercomputing" : {
+      "EDUCATION" : 15,
+      "LIFESTYLE" : 11,
+      "NEWS_AND_WEATHER" : 19,
+      "GAMES" : 24,
+      "BUSINESS" : 9,
+      "BOOKS_AND_REFERENCE" : 7
+   },
+   "Recreation/Climbing" : {
+      "ENTERTAINMENT_AND_SPORTS" : 12,
+      "EDUCATION" : 12,
+      "GAMES" : 58,
+      "NEWS_AND_WEATHER" : 14
+   },
+   "Sports/Archery" : {
+      "ENTERTAINMENT_AND_SPORTS" : 27,
+      "LIFESTYLE" : 11,
+      "GAMES" : 60
+   },
+   "Sports/Cricket" : {
+      "ENTERTAINMENT_AND_SPORTS" : 37,
+      "GAMES" : 62
+   },
+   "Computers/Artificial_Life" : {
+      "SOCIAL_AND_COMMUNICATION" : 12,
+      "HEALTH_AND_FITNESS" : 9,
+      "ENTERTAINMENT_AND_SPORTS" : 10,
+      "LIFESTYLE" : 15,
+      "GAMES" : 37,
+      "BOOKS_AND_REFERENCE" : 12
+   },
+   "Society/Military" : {
+      "UTILITIES" : 21,
+      "TRAVEL" : 21,
+      "LIFESTYLE" : 14,
+      "GAMES" : 11,
+      "BUSINESS" : 9,
+      "BOOKS_AND_REFERENCE" : 21
+   },
+   "Computers/History" : {
+      "SOCIAL_AND_COMMUNICATION" : 11,
+      "ENTERTAINMENT_AND_SPORTS" : 7,
+      "UTILITIES" : 20,
+      "LIFESTYLE" : 20,
+      "EDUCATION" : 12,
+      "BUSINESS" : 10,
+      "GAMES" : 16
+   },
+   "Shopping/Office_Products" : {
+      "SHOPPING" : 21,
+      "UTILITIES" : 24,
+      "LIFESTYLE" : 6,
+      "TRAVEL" : 8,
+      "BUSINESS" : 38
+   },
+   "Society/Ethnicity" : {
+      "HEALTH_AND_FITNESS" : 19,
+      "ENTERTAINMENT_AND_SPORTS" : 16,
+      "LIFESTYLE" : 24,
+      "SHOPPING" : 11,
+      "TRAVEL" : 10,
+      "BOOKS_AND_REFERENCE" : 17
+   },
+   "Games/Party_Games" : {
+      "GAMES" : 98
+   },
+   "Arts/Costumes" : {
+      "SOCIAL_AND_COMMUNICATION" : 7,
+      "UTILITIES" : 36,
+      "EDUCATION" : 8,
+      "LIFESTYLE" : 8,
+      "SHOPPING" : 9,
+      "GAMES" : 27
+   },
+   "Society/Philosophy" : {
+      "ENTERTAINMENT_AND_SPORTS" : 12,
+      "BOOKS_AND_REFERENCE" : 87
+   },
+   "Home/Entertaining" : {
+      "ENTERTAINMENT_AND_SPORTS" : 52,
+      "GAMES" : 46
+   },
+   "Arts/Personal_Pages" : {
+      "SOCIAL_AND_COMMUNICATION" : 9,
+      "UTILITIES" : 34,
+      "LIFESTYLE" : 4,
+      "TRAVEL" : 9,
+      "BUSINESS" : 25,
+      "BOOKS_AND_REFERENCE" : 7,
+      "MUSIC" : 10
+   },
+   "Shopping/Tobacco" : {
+      "HEALTH_AND_FITNESS" : 37,
+      "LIFESTYLE" : 13,
+      "SHOPPING" : 9,
+      "GAMES" : 24,
+      "BOOKS_AND_REFERENCE" : 13
+   },
+   "Computers/Data_Formats" : {
+      "SOCIAL_AND_COMMUNICATION" : 10,
+      "HEALTH_AND_FITNESS" : 7,
+      "UTILITIES" : 16,
+      "LIFESTYLE" : 10,
+      "EDUCATION" : 3,
+      "BUSINESS" : 49
+   },
+   "Business/Materials" : {
+      "HEALTH_AND_FITNESS" : 11,
+      "UTILITIES" : 22,
+      "EDUCATION" : 9,
+      "LIFESTYLE" : 11,
+      "SHOPPING" : 12,
+      "BUSINESS" : 9,
+      "BOOKS_AND_REFERENCE" : 21
+   },
+   "Business/International_Business_and_Trade" : {
+      "BUSINESS" : 100
+   },
+   "Health" : {
+      "HEALTH_AND_FITNESS" : 100
+   },
+   "Science/Earth_Sciences" : {
+      "EDUCATION" : 53,
+      "LIFESTYLE" : 4,
+      "NEWS_AND_WEATHER" : 21,
+      "GAMES" : 7,
+      "BOOKS_AND_REFERENCE" : 12
+   },
+   "Sports/Strength_Sports" : {
+      "HEALTH_AND_FITNESS" : 47,
+      "ENTERTAINMENT_AND_SPORTS" : 41,
+      "GAMES" : 10
+   },
+   "Sports/Football" : {
+      "ENTERTAINMENT_AND_SPORTS" : 56,
+      "GAMES" : 43
+   },
+   "Society/People" : {
+      "SOCIAL_AND_COMMUNICATION" : 47,
+      "ENTERTAINMENT_AND_SPORTS" : 17,
+      "LIFESTYLE" : 6,
+      "GAMES" : 10,
+      "BOOKS_AND_REFERENCE" : 16
+   },
+   "Sports/Squash" : {
+      "ENTERTAINMENT_AND_SPORTS" : 81,
+      "GAMES" : 17
+   },
+   "Society/Transgendered" : {
+      "SOCIAL_AND_COMMUNICATION" : 16,
+      "HEALTH_AND_FITNESS" : 9,
+      "LIFESTYLE" : 24,
+      "EDUCATION" : 12,
+      "NEWS_AND_WEATHER" : 21,
+      "BOOKS_AND_REFERENCE" : 15
+   },
+   "Reference/Knowledge_Management" : {
+      "HEALTH_AND_FITNESS" : 8,
+      "EDUCATION" : 12,
+      "BUSINESS" : 20,
+      "BOOKS_AND_REFERENCE" : 18,
+      "ENTERTAINMENT_AND_SPORTS" : 11,
+      "TRAVEL" : 12,
+      "LIFESTYLE" : 9,
+      "UTILITIES" : 7
+   },
+   "Society/Genealogy" : {
+      "SOCIAL_AND_COMMUNICATION" : 18,
+      "LIFESTYLE" : 24,
+      "EDUCATION" : 8,
+      "NEWS_AND_WEATHER" : 7,
+      "BOOKS_AND_REFERENCE" : 41
+   },
+   "Home/Consumer_Information" : {
+      "HEALTH_AND_FITNESS" : 17,
+      "LIFESTYLE" : 21,
+      "UTILITIES" : 19,
+      "TRAVEL" : 12,
+      "SHOPPING" : 9,
+      "BUSINESS" : 18
+   },
+   "Recreation/Travel" : {
+      "TRAVEL" : 100
+   },
+   "Sports/Paintball" : {
+      "ENTERTAINMENT_AND_SPORTS" : 25,
+      "UTILITIES" : 7,
+      "GAMES" : 46,
+      "NEWS_AND_WEATHER" : 10,
+      "BUSINESS" : 9
+   },
+   "Health/Conditions_and_Diseases" : {
+      "HEALTH_AND_FITNESS" : 100
+   },
+   "Business/Mining_and_Drilling" : {
+      "UTILITIES" : 11,
+      "GAMES" : 46,
+      "BUSINESS" : 26,
+      "BOOKS_AND_REFERENCE" : 15
+   },
+   "Shopping/Visual_Arts" : {
+      "ENTERTAINMENT_AND_SPORTS" : 4,
+      "EDUCATION" : 36,
+      "LIFESTYLE" : 25,
+      "GAMES" : 11,
+      "NEWS_AND_WEATHER" : 10,
+      "BOOKS_AND_REFERENCE" : 4,
+      "MUSIC" : 4
+   },
+   "Science/Search_Engines" : {
+      "ENTERTAINMENT_AND_SPORTS" : 9,
+      "UTILITIES" : 54,
+      "LIFESTYLE" : 3,
+      "BUSINESS" : 23,
+      "MUSIC" : 7
+   },
+   "Computers/Consultants" : {
+      "HEALTH_AND_FITNESS" : 9,
+      "TRAVEL" : 10,
+      "LIFESTYLE" : 7,
+      "BUSINESS" : 55,
+      "NEWS_AND_WEATHER" : 9,
+      "BOOKS_AND_REFERENCE" : 7
+   },
+   "Reference/Ask_an_Expert" : {
+      "SOCIAL_AND_COMMUNICATION" : 10,
+      "HEALTH_AND_FITNESS" : 23,
+      "ENTERTAINMENT_AND_SPORTS" : 43,
+      "GAMES" : 12,
+      "BOOKS_AND_REFERENCE" : 8
+   },
+   "Business/Directories" : {
+      "UTILITIES" : 62,
+      "TRAVEL" : 20,
+      "SHOPPING" : 9,
+      "MUSIC" : 7
+   },
+   "Arts/News_and_Media" : {
+      "NEWS_AND_WEATHER" : 100
+   },
+   "Sports/Team_Spirit" : {
+      "ENTERTAINMENT_AND_SPORTS" : 11,
+      "LIFESTYLE" : 27,
+      "SHOPPING" : 25,
+      "GAMES" : 7,
+      "BOOKS_AND_REFERENCE" : 27
+   },
+   "Sports/Fencing" : {
+      "ENTERTAINMENT_AND_SPORTS" : 89,
+      "GAMES" : 10
+   },
+   "Recreation/Models" : {
+      "ENTERTAINMENT_AND_SPORTS" : 30,
+      "EDUCATION" : 19,
+      "LIFESTYLE" : 22,
+      "UTILITIES" : 8,
+      "NEWS_AND_WEATHER" : 7,
+      "MUSIC" : 9
+   },
+   "Games/Video_Games" : {
+      "GAMES" : 100
+   },
+   "Games/Online" : {
+      "SOCIAL_AND_COMMUNICATION" : 11,
+      "ENTERTAINMENT_AND_SPORTS" : 20,
+      "UTILITIES" : 3,
+      "LIFESTYLE" : 3,
+      "NEWS_AND_WEATHER" : 21,
+      "GAMES" : 29,
+      "BUSINESS" : 3,
+      "MUSIC" : 7
+   },
+   "Business/Business_Services" : {
+      "BUSINESS" : 100
+   },
+   "Games/Developers_and_Publishers" : {
+      "TRAVEL" : 12,
+      "UTILITIES" : 11,
+      "EDUCATION" : 7,
+      "NEWS_AND_WEATHER" : 19,
+      "BUSINESS" : 19,
+      "BOOKS_AND_REFERENCE" : 27
+   },
+   "Arts/Directories" : {
+      "UTILITIES" : 62,
+      "TRAVEL" : 20,
+      "SHOPPING" : 9,
+      "MUSIC" : 7
+   },
+   "Reference/Parliamentary_Procedure" : {
+      "BOOKS_AND_REFERENCE" : 100
+   },
+   "Sports/Cue_Sports" : {
+      "HEALTH_AND_FITNESS" : 7,
+      "ENTERTAINMENT_AND_SPORTS" : 12,
+      "GAMES" : 79
+   },
+   "Business/Publishing_and_Printing" : {
+      "SOCIAL_AND_COMMUNICATION" : 8,
+      "HEALTH_AND_FITNESS" : 30,
+      "LIFESTYLE" : 20,
+      "EDUCATION" : 9,
+      "NEWS_AND_WEATHER" : 12,
+      "BOOKS_AND_REFERENCE" : 18
+   },
+   "Society/Lifestyle_Choices" : {
+      "HEALTH_AND_FITNESS" : 24,
+      "LIFESTYLE" : 75
+   },
+   "Arts/Humanities" : {
+      "EDUCATION" : 43,
+      "GAMES" : 10,
+      "BOOKS_AND_REFERENCE" : 45
+   },
+   "Computers/Security" : {
+      "SOCIAL_AND_COMMUNICATION" : 10,
+      "ENTERTAINMENT_AND_SPORTS" : 18,
+      "UTILITIES" : 49,
+      "LIFESTYLE" : 6,
+      "BUSINESS" : 6
+   },
+   "Games/Resources" : {
+      "HEALTH_AND_FITNESS" : 32,
+      "UTILITIES" : 9,
+      "BUSINESS" : 16,
+      "GAMES" : 11,
+      "BOOKS_AND_REFERENCE" : 18
+   },
+   "Shopping/Tools" : {
+      "UTILITIES" : 100
+   },
+   "Recreation/Trains_and_Railroads" : {
+      "TRAVEL" : 52,
+      "EDUCATION" : 12,
+      "GAMES" : 34
+   },
+   "Shopping/Pets" : {
+      "SOCIAL_AND_COMMUNICATION" : 9,
+      "GAMES" : 90
+   },
+   "News/Museums_and_Archives" : {
+      "EDUCATION" : 54,
+      "TRAVEL" : 21,
+      "LIFESTYLE" : 9,
+      "NEWS_AND_WEATHER" : 7,
+      "BOOKS_AND_REFERENCE" : 8
+   },
+   "Reference" : {
+      "BOOKS_AND_REFERENCE" : 100
+   },
+   "Business/Telecommunications" : {
+      "SOCIAL_AND_COMMUNICATION" : 87,
+      "UTILITIES" : 12
+   },
+   "Recreation/Living_History" : {
+      "SOCIAL_AND_COMMUNICATION" : 22,
+      "ENTERTAINMENT_AND_SPORTS" : 26,
+      "LIFESTYLE" : 22,
+      "BUSINESS" : 12,
+      "GAMES" : 8,
+      "BOOKS_AND_REFERENCE" : 7
+   },
+   "Science/Environment" : {
+      "LIFESTYLE" : 19,
+      "EDUCATION" : 12,
+      "UTILITIES" : 9,
+      "NEWS_AND_WEATHER" : 29,
+      "BOOKS_AND_REFERENCE" : 28
+   },
+   "Health/Education" : {
+      "EDUCATION" : 100
+   },
+   "Sports/Hockey" : {
+      "ENTERTAINMENT_AND_SPORTS" : 7,
+      "GAMES" : 91
+   },
+   "Computers/Internet" : {
+      "SOCIAL_AND_COMMUNICATION" : 32,
+      "ENTERTAINMENT_AND_SPORTS" : 18,
+      "UTILITIES" : 26,
+      "MUSIC" : 22
+   },
+   "Reference/Quotations" : {
+      "ENTERTAINMENT_AND_SPORTS" : 28,
+      "EDUCATION" : 10,
+      "LIFESTYLE" : 9,
+      "BOOKS_AND_REFERENCE" : 51
+   },
+   "Arts/Art_History" : {
+      "EDUCATION" : 30,
+      "UTILITIES" : 3,
+      "LIFESTYLE" : 10,
+      "BUSINESS" : 3,
+      "GAMES" : 7,
+      "BOOKS_AND_REFERENCE" : 34,
+      "MUSIC" : 9
+   },
+   "Computers/Organizations" : {
+      "SOCIAL_AND_COMMUNICATION" : 11,
+      "ENTERTAINMENT_AND_SPORTS" : 9,
+      "TRAVEL" : 9,
+      "EDUCATION" : 7,
+      "BUSINESS" : 42,
+      "GAMES" : 8,
+      "BOOKS_AND_REFERENCE" : 10
+   },
+   "Society/Gay,_Lesbian,_and_Bisexual" : {
+      "SOCIAL_AND_COMMUNICATION" : 21,
+      "ENTERTAINMENT_AND_SPORTS" : 30,
+      "LIFESTYLE" : 13,
+      "EDUCATION" : 8,
+      "TRAVEL" : 7,
+      "NEWS_AND_WEATHER" : 12,
+      "BOOKS_AND_REFERENCE" : 4
+   },
+   "Home/Gardening" : {
+      "LIFESTYLE" : 34,
+      "UTILITIES" : 5,
+      "EDUCATION" : 12,
+      "GAMES" : 30,
+      "BUSINESS" : 5,
+      "BOOKS_AND_REFERENCE" : 8
+   },
+   "Society/Support_Groups" : {
+      "SOCIAL_AND_COMMUNICATION" : 54,
+      "LIFESTYLE" : 20,
+      "EDUCATION" : 5,
+      "UTILITIES" : 3,
+      "BUSINESS" : 3,
+      "MUSIC" : 12
+   },
+   "Sports/Martial_Arts" : {
+      "SOCIAL_AND_COMMUNICATION" : 8,
+      "HEALTH_AND_FITNESS" : 9,
+      "ENTERTAINMENT_AND_SPORTS" : 55,
+      "EDUCATION" : 7,
+      "BOOKS_AND_REFERENCE" : 12,
+      "MUSIC" : 5
+   },
+   "Recreation/Tobacco" : {
+      "HEALTH_AND_FITNESS" : 37,
+      "LIFESTYLE" : 13,
+      "SHOPPING" : 9,
+      "GAMES" : 24,
+      "BOOKS_AND_REFERENCE" : 13
+   },
+   "Shopping/Jewelry" : {
+      "LIFESTYLE" : 36,
+      "SHOPPING" : 9,
+      "GAMES" : 32,
+      "BUSINESS" : 16,
+      "BOOKS_AND_REFERENCE" : 3
+   },
+   "Games/Dice" : {
+      "ENTERTAINMENT_AND_SPORTS" : 30,
+      "GAMES" : 54,
+      "BUSINESS" : 7,
+      "MUSIC" : 5
+   },
+   "Computers/Directories" : {
+      "UTILITIES" : 62,
+      "TRAVEL" : 20,
+      "SHOPPING" : 9,
+      "MUSIC" : 7
+   },
+   "Arts/Organizations" : {
+      "SOCIAL_AND_COMMUNICATION" : 11,
+      "ENTERTAINMENT_AND_SPORTS" : 9,
+      "TRAVEL" : 9,
+      "EDUCATION" : 7,
+      "BUSINESS" : 42,
+      "GAMES" : 8,
+      "BOOKS_AND_REFERENCE" : 10
+   },
+   "Business/News_and_Media" : {
+      "NEWS_AND_WEATHER" : 100
+   },
+   "Reference/World_Records" : {
+      "ENTERTAINMENT_AND_SPORTS" : 12,
+      "GAMES" : 45,
+      "NEWS_AND_WEATHER" : 16,
+      "BOOKS_AND_REFERENCE" : 12,
+      "MUSIC" : 10
+   },
+   "Home/Apartment_Living" : {
+      "LIFESTYLE" : 72,
+      "TRAVEL" : 7,
+      "GAMES" : 20
+   },
+   "Sports/Equestrian" : {
+      "ENTERTAINMENT_AND_SPORTS" : 7,
+      "LIFESTYLE" : 10,
+      "GAMES" : 50,
+      "BOOKS_AND_REFERENCE" : 28
+   },
+   "Science/Research_Groups_and_Centers" : {
+      "HEALTH_AND_FITNESS" : 12,
+      "UTILITIES" : 22,
+      "EDUCATION" : 15,
+      "BUSINESS" : 21,
+      "GAMES" : 10,
+      "BOOKS_AND_REFERENCE" : 17
+   },
+   "Society/Crime" : {
+      "GAMES" : 76,
+      "BOOKS_AND_REFERENCE" : 23
+   },
+   "Computers/Desktop_Publishing" : {
+      "ENTERTAINMENT_AND_SPORTS" : 14,
+      "UTILITIES" : 18,
+      "LIFESTYLE" : 11,
+      "EDUCATION" : 10,
+      "BUSINESS" : 20,
+      "NEWS_AND_WEATHER" : 9,
+      "MUSIC" : 14
+   },
+   "Computers/Emulators" : {
+      "UTILITIES" : 29,
+      "GAMES" : 70
+   },
+   "Sports/Gaelic" : {
+      "ENTERTAINMENT_AND_SPORTS" : 9,
+      "EDUCATION" : 41,
+      "TRAVEL" : 23,
+      "LIFESTYLE" : 11,
+      "UTILITIES" : 2,
+      "BUSINESS" : 2,
+      "BOOKS_AND_REFERENCE" : 8
+   },
+   "Sports/People" : {
+      "SOCIAL_AND_COMMUNICATION" : 47,
+      "ENTERTAINMENT_AND_SPORTS" : 17,
+      "LIFESTYLE" : 6,
+      "GAMES" : 10,
+      "BOOKS_AND_REFERENCE" : 16
+   },
+   "Computers/Intranet" : {
+      "SOCIAL_AND_COMMUNICATION" : 12,
+      "UTILITIES" : 21,
+      "EDUCATION" : 17,
+      "LIFESTYLE" : 3,
+      "BUSINESS" : 23,
+      "GAMES" : 7
+   },
+   "Home/News_and_Media" : {
+      "NEWS_AND_WEATHER" : 100
+   },
+   "Science/Anomalies_and_Alternative_Science" : {},
+   "Shopping/Children" : {
+      "EDUCATION" : 19,
+      "GAMES" : 55,
+      "BOOKS_AND_REFERENCE" : 23
+   },
+   "Recreation/Theme_Parks" : {
+      "TRAVEL" : 43,
+      "LIFESTYLE" : 5,
+      "GAMES" : 45,
+      "BOOKS_AND_REFERENCE" : 5
+   },
+   "Science/Academic_Departments" : {
+      "EDUCATION" : 65,
+      "TRAVEL" : 11,
+      "BOOKS_AND_REFERENCE" : 22
+   },
+   "Science/Astronomy" : {
+      "SOCIAL_AND_COMMUNICATION" : 7,
+      "EDUCATION" : 37,
+      "LIFESTYLE" : 13,
+      "NEWS_AND_WEATHER" : 9,
+      "BOOKS_AND_REFERENCE" : 30
+   },
+   "Shopping/Toys_and_Games" : {
+      "GAMES" : 99
+   },
+   "Sports/Rounders" : {
+      "SOCIAL_AND_COMMUNICATION" : 16,
+      "ENTERTAINMENT_AND_SPORTS" : 23,
+      "EDUCATION" : 9,
+      "BUSINESS" : 21,
+      "GAMES" : 28
+   },
+   "Business/Business_and_Society" : {
+      "BUSINESS" : 100
+   },
+   "Arts/Genres" : {
+      "ENTERTAINMENT_AND_SPORTS" : 14,
+      "GAMES" : 17,
+      "MUSIC" : 67
+   },
+   "Arts/Video" : {
+      "SOCIAL_AND_COMMUNICATION" : 68,
+      "ENTERTAINMENT_AND_SPORTS" : 20,
+      "MUSIC" : 10
+   },
+   "Health/Senior_Health" : {
+      "HEALTH_AND_FITNESS" : 100
+   },
+   "Sports/Multi-Sports" : {
+      "HEALTH_AND_FITNESS" : 22,
+      "ENTERTAINMENT_AND_SPORTS" : 52,
+      "UTILITIES" : 10,
+      "NEWS_AND_WEATHER" : 14
+   },
+   "Recreation/Camps" : {
+      "HEALTH_AND_FITNESS" : 7,
+      "ENTERTAINMENT_AND_SPORTS" : 18,
+      "TRAVEL" : 58,
+      "UTILITIES" : 8,
+      "GAMES" : 7
+   },
+   "Shopping/Health" : {
+      "HEALTH_AND_FITNESS" : 100
+   },
+   "Games/Hand_Games" : {
+      "GAMES" : 99
+   },
+   "Arts/Performing_Arts" : {
+      "HEALTH_AND_FITNESS" : 10,
+      "ENTERTAINMENT_AND_SPORTS" : 44,
+      "GAMES" : 36,
+      "MUSIC" : 8
+   },
+   "Home/Cooking" : {
+      "HEALTH_AND_FITNESS" : 11,
+      "LIFESTYLE" : 36,
+      "GAMES" : 51
+   },
+   "Health/Directories" : {
+      "UTILITIES" : 62,
+      "TRAVEL" : 20,
+      "SHOPPING" : 9,
+      "MUSIC" : 7
+   },
+   "Games/Yard,_Deck,_and_Table_Games" : {},
+   "Sports/Soccer" : {
+      "ENTERTAINMENT_AND_SPORTS" : 38,
+      "GAMES" : 61
+   },
+   "Arts/Music" : {
+      "MUSIC" : 100
+   },
+   "Arts/Online_Writing" : {
+      "SOCIAL_AND_COMMUNICATION" : 12,
+      "ENTERTAINMENT_AND_SPORTS" : 11,
+      "EDUCATION" : 46,
+      "BUSINESS" : 9,
+      "GAMES" : 9,
+      "BOOKS_AND_REFERENCE" : 10
+   },
+   "Computers/Algorithms" : {
+      "SOCIAL_AND_COMMUNICATION" : 16,
+      "HEALTH_AND_FITNESS" : 7,
+      "LIFESTYLE" : 21,
+      "UTILITIES" : 21,
+      "EDUCATION" : 10,
+      "BOOKS_AND_REFERENCE" : 23
+   },
+   "Sports/Winter_Sports" : {
+      "ENTERTAINMENT_AND_SPORTS" : 30,
+      "TRAVEL" : 34,
+      "GAMES" : 33
+   },
+   "Recreation/Whips" : {
+      "SOCIAL_AND_COMMUNICATION" : 7,
+      "ENTERTAINMENT_AND_SPORTS" : 82,
+      "GAMES" : 9
+   },
+   "Business/Information_Services" : {
+      "SOCIAL_AND_COMMUNICATION" : 7,
+      "HEALTH_AND_FITNESS" : 11,
+      "UTILITIES" : 13,
+      "LIFESTYLE" : 5,
+      "TRAVEL" : 10,
+      "BUSINESS" : 24,
+      "NEWS_AND_WEATHER" : 12
+   },
+   "Sports/Women" : {
+      "HEALTH_AND_FITNESS" : 61,
+      "LIFESTYLE" : 28,
+      "BOOKS_AND_REFERENCE" : 9
+   },
+   "Games/Hand-Eye_Coordination" : {
+      "ENTERTAINMENT_AND_SPORTS" : 12,
+      "EDUCATION" : 49,
+      "GAMES" : 36
+   },
+   "Society/Philanthropy" : {
+      "SOCIAL_AND_COMMUNICATION" : 16,
+      "HEALTH_AND_FITNESS" : 11,
+      "ENTERTAINMENT_AND_SPORTS" : 10,
+      "LIFESTYLE" : 14,
+      "EDUCATION" : 8,
+      "BUSINESS" : 12,
+      "BOOKS_AND_REFERENCE" : 24
+   },
+   "Sports/College_and_University" : {
+      "ENTERTAINMENT_AND_SPORTS" : 74,
+      "EDUCATION" : 16,
+      "TRAVEL" : 9
+   },
+   "Health/Nursing" : {
+      "HEALTH_AND_FITNESS" : 79,
+      "EDUCATION" : 11,
+      "BUSINESS" : 8
+   },
+   "Games/Board_Games" : {
+      "GAMES" : 99
+   },
+   "Reference/Almanacs" : {
+      "SOCIAL_AND_COMMUNICATION" : 10,
+      "ENTERTAINMENT_AND_SPORTS" : 24,
+      "TRAVEL" : 20,
+      "LIFESTYLE" : 12,
+      "UTILITIES" : 8,
+      "GAMES" : 9,
+      "BOOKS_AND_REFERENCE" : 14
+   },
+   "Society/Advice" : {
+      "SOCIAL_AND_COMMUNICATION" : 9,
+      "HEALTH_AND_FITNESS" : 9,
+      "ENTERTAINMENT_AND_SPORTS" : 22,
+      "LIFESTYLE" : 23,
+      "UTILITIES" : 2,
+      "BUSINESS" : 9,
+      "BOOKS_AND_REFERENCE" : 21
+   },
+   "Sports/Flying_Discs" : {
+      "ENTERTAINMENT_AND_SPORTS" : 26,
+      "LIFESTYLE" : 12,
+      "UTILITIES" : 9,
+      "GAMES" : 49
+   },
+   "Reference/Encyclopedias" : {
+      "ENTERTAINMENT_AND_SPORTS" : 7,
+      "EDUCATION" : 10,
+      "UTILITIES" : 7,
+      "BOOKS_AND_REFERENCE" : 62,
+      "MUSIC" : 11
+   },
+   "Arts/Movies" : {
+      "ENTERTAINMENT_AND_SPORTS" : 71,
+      "GAMES" : 18,
+      "MUSIC" : 10
+   },
+   "Sports/Cheerleading" : {
+      "ENTERTAINMENT_AND_SPORTS" : 12,
+      "LIFESTYLE" : 3,
+      "GAMES" : 78,
+      "BOOKS_AND_REFERENCE" : 3
+   },
+   "Sports/Gymnastics" : {
+      "HEALTH_AND_FITNESS" : 47,
+      "ENTERTAINMENT_AND_SPORTS" : 40,
+      "GAMES" : 12
+   },
+   "Recreation/Autos" : {
+      "SOCIAL_AND_COMMUNICATION" : 10,
+      "LIFESTYLE" : 25,
+      "UTILITIES" : 21,
+      "GAMES" : 36,
+      "BUSINESS" : 5
+   },
+   "Computers/Robotics" : {
+      "ENTERTAINMENT_AND_SPORTS" : 9,
+      "GAMES" : 67,
+      "MUSIC" : 22
+   },
+   "Sports/Walking" : {
+      "SOCIAL_AND_COMMUNICATION" : 10,
+      "HEALTH_AND_FITNESS" : 40,
+      "ENTERTAINMENT_AND_SPORTS" : 12,
+      "LIFESTYLE" : 8,
+      "UTILITIES" : 10,
+      "GAMES" : 9,
+      "BOOKS_AND_REFERENCE" : 8
+   },
+   "Shopping/Antiques_and_Collectibles" : {
+      "SHOPPING" : 30,
+      "TRAVEL" : 20,
+      "NEWS_AND_WEATHER" : 9,
+      "BUSINESS" : 8,
+      "BOOKS_AND_REFERENCE" : 30
+   },
+   "Business/Construction_and_Maintenance" : {
+      "LIFESTYLE" : 10,
+      "UTILITIES" : 9,
+      "EDUCATION" : 7,
+      "TRAVEL" : 7,
+      "BOOKS_AND_REFERENCE" : 65
+   },
+   "Computers/Chats_and_Forums" : {
+      "SOCIAL_AND_COMMUNICATION" : 100
+   },
+   "Health/Child_Health" : {
+      "HEALTH_AND_FITNESS" : 100
+   },
+   "Arts/Visual_Arts" : {
+      "ENTERTAINMENT_AND_SPORTS" : 4,
+      "EDUCATION" : 36,
+      "LIFESTYLE" : 25,
+      "GAMES" : 11,
+      "NEWS_AND_WEATHER" : 10,
+      "BOOKS_AND_REFERENCE" : 4,
+      "MUSIC" : 4
+   },
+   "Computers/Programming" : {
+      "ENTERTAINMENT_AND_SPORTS" : 29,
+      "EDUCATION" : 10,
+      "BOOKS_AND_REFERENCE" : 36,
+      "MUSIC" : 21
+   },
+   "Computers/Graphics" : {
+      "EDUCATION" : 21,
+      "UTILITIES" : 21,
+      "LIFESTYLE" : 4,
+      "BUSINESS" : 4,
+      "GAMES" : 21,
+      "BOOKS_AND_REFERENCE" : 24
+   },
+   "Recreation/Audio" : {
+      "MUSIC" : 100
+   },
+   "Sports/Cycling" : {
+      "HEALTH_AND_FITNESS" : 40,
+      "ENTERTAINMENT_AND_SPORTS" : 10,
+      "TRAVEL" : 18,
+      "GAMES" : 30
+   },
+   "Science/Software" : {
+      "SOCIAL_AND_COMMUNICATION" : 9,
+      "ENTERTAINMENT_AND_SPORTS" : 18,
+      "UTILITIES" : 44,
+      "BUSINESS" : 20,
+      "MUSIC" : 7
+   },
+   "Reference/Time" : {
+      "HEALTH_AND_FITNESS" : 7,
+      "NEWS_AND_WEATHER" : 33,
+      "BUSINESS" : 3,
+      "SOCIAL_AND_COMMUNICATION" : 9,
+      "ENTERTAINMENT_AND_SPORTS" : 20,
+      "UTILITIES" : 3,
+      "LIFESTYLE" : 3,
+      "TRAVEL" : 7,
+      "GAMES" : 10
+   },
+   "Shopping/Sports" : {
+      "ENTERTAINMENT_AND_SPORTS" : 92,
+      "GAMES" : 7
+   },
+   "News/Satire" : {
+      "ENTERTAINMENT_AND_SPORTS" : 29,
+      "EDUCATION" : 4,
+      "LIFESTYLE" : 4,
+      "NEWS_AND_WEATHER" : 31,
+      "GAMES" : 16,
+      "BOOKS_AND_REFERENCE" : 12
+   },
+   "Health/Women's_Health" : {
+      "HEALTH_AND_FITNESS" : 100
+   },
+   "Sports/Basketball" : {
+      "ENTERTAINMENT_AND_SPORTS" : 7,
+      "LIFESTYLE" : 4,
+      "GAMES" : 83,
+      "BOOKS_AND_REFERENCE" : 4
+   },
+   "Business/Food_and_Related_Products" : {
+      "HEALTH_AND_FITNESS" : 60,
+      "ENTERTAINMENT_AND_SPORTS" : 7,
+      "SHOPPING" : 11,
+      "LIFESTYLE" : 10,
+      "GAMES" : 9
+   },
+   "Business/Consumer_Goods_and_Services" : {
+      "SOCIAL_AND_COMMUNICATION" : 10,
+      "SHOPPING" : 24,
+      "TRAVEL" : 21,
+      "LIFESTYLE" : 10,
+      "BUSINESS" : 31
+   },
+   "Shopping/Travel" : {
+      "TRAVEL" : 100
+   }
+}
