@@ -7,7 +7,7 @@ module.exports = function(app, redisClient) {
   });
 
   app.get('/recommendations.json', function(req, res) {
-    var categories = req.query['categories'] ? req.query['categories'].split(',') : null;
+    var categories = req.query['categories'] ? req.query['categories'].toLowerCase().split(',') : null;
     Marketplace.getRecommendations(redisClient, categories, function(apps) {
       res.json(apps);
     });
