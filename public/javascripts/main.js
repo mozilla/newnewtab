@@ -112,7 +112,7 @@ define(function(require) {
         for (var mrktCat in mkrtCats) {
            var mkrtScore = mkrtCats[mrktCat];
            if (!marketPlaceCats[mrktCat]) {
-               marketPlaceCats[mrktCat] = 0;
+             marketPlaceCats[mrktCat] = 0;
            }
            marketPlaceCats[mrktCat] += mkrtScore * odpScore;
            totalScore += mkrtScore * odpScore;
@@ -120,8 +120,8 @@ define(function(require) {
       } // end of outer for
 
       // now go back to marketPlaceCats and normalize by totalScore
-      for(var cat in marketPlaceCats) {
-          marketPlaceCats[cat] = Math.ceil(marketPlaceCats[cat] * 100 / totalScore);
+      for (var cat in marketPlaceCats) {
+        marketPlaceCats[cat] = Math.ceil(marketPlaceCats[cat] * 100 / totalScore);
       }
 
       // save it to the localstorage
@@ -133,17 +133,16 @@ define(function(require) {
   function recommnedMarketPlaceCategory() {
     try {
       // check if we have marketplace cats ready
-      if(localStorage.marketPlaceCats) {
-        // so we do - perform a walk on random number
-        // since the categories have weight that totals to 100
-        // we should choose a random number between 0 and 100
-        // and walk the categories substructing the weight
-        // fromt the original number.  When number turns negative
-        // we found the category to recommend
+      if (localStorage.marketPlaceCats) {
+        // so we do - perform a walk on random number since the categories have
+        // weight that totals to 100 we should choose a random number between 0
+        // and 100 and walk the categories substructing the weight from the
+        // original number. When number turns negative we found the category to
+        // recommend
         var marketPlaceCats = JSON.parse(localStorage.marketPlaceCats);
         var random = Math.floor(Math.random() * 100);
         for (var cat in marketPlaceCats) {
-          var weight=marketPlaceCats[cat];
+          var weight = marketPlaceCats[cat];
           random -= weight;
           if (random < 0) {
             return cat;
@@ -152,11 +151,10 @@ define(function(require) {
       } // end of if
     } // end of try
     catch (ex) {
-      console.log( "Error: " + ex );
+      console.log("Error: " + ex);
     }
 
-    // whatever went wrong, simply return
-    // a market place category at random
+    // whatever went wrong, simply return a market place category at random
     var random = Math.floor(Math.random() * gMarketPlaceCats.length);
     return gMarketPlaceCats[random];
   }
