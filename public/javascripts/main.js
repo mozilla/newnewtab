@@ -1,4 +1,20 @@
 'use strict';
+const gMarketPlaceCats = [
+  'BOOKS_AND_REFERENCE',
+  'BUSINESS',
+  'EDUCATION',
+  'ENTERTAINMENT_AND_SPORTS',
+  'GAMES',
+  'HEALTH_AND_FITNESS',
+  'LIFESTYLE',
+  'MUSIC',
+  'NEWS_AND_WEATHER',
+  'SHOPPING',
+  'SOCIAL_AND_COMMUNICATION',
+  'TRAVEL',
+  'UTILITIES'
+];
+
 define(function(require) {
   // Monkeypatch Array
   require('../javascripts/array');
@@ -30,6 +46,10 @@ define(function(require) {
     if (localStorage.getItem('firstRun') !== '1') {
       localStorage.recommendations = JSON.stringify([]);
       localStorage.savedPositions = JSON.stringify({});
+
+      var request = new Request('/data/odp2mozilla.json' , function(request) {
+        computeMarketPlaceCategories(JSON.parse(request.responseText));
+      });
 
       // We've run once and initialized data.
       localStorage.firstRun = '1';
@@ -76,6 +96,69 @@ define(function(require) {
         cells[i].outerHTML = apps[i - recommendationInserted].html;
       }
     }
+  }
+
+  // Map user odp insterests to market place cats
+  function computeMarketPlaceCategories(odp2MarketPlaceMapping) {
+    // pull user ODP profile from the window
+    window.getCategories(function(odpInterests) {
+      // we must map odp results into marketplace categories
+      var marketPlaceCats = {};
+      var totalScore = 0;
+      for (var odpCat in odpInterests) {
+        var odpScore = odpInterests[odpCat];
+        var mkrtCats = odp2MarketPlaceMapping[odpCat];
+
+        for (var mrktCat in mkrtCats) {
+           var mkrtScore = mkrtCats[mrktCat];
+           if (!marketPlaceCats[mrktCat]) {
+               marketPlaceCats[mrktCat] = 0;
+           }
+           marketPlaceCats[mrktCat] += mkrtScore * odpScore;
+           totalScore += mkrtScore * odpScore;
+        } // end of inner for
+      } // end of outer for
+
+      // now go back to marketPlaceCats and normalize by totalScore
+      for(var cat in marketPlaceCats) {
+          marketPlaceCats[cat] = Math.ceil(marketPlaceCats[cat] * 100 / totalScore);
+      }
+
+      // save it to the localstorage
+      localStorage.marketPlaceCats = JSON.stringify(marketPlaceCats);
+    });
+  }
+
+  // recommend a marketplace category
+  function recommnedMarketPlaceCategory() {
+    try {
+      // check if we have marketplace cats ready
+      if(localStorage.marketPlaceCats) {
+        // so we do - perform a walk on random number
+        // since the categories have weight that totals to 100
+        // we should choose a random number between 0 and 100
+        // and walk the categories substructing the weight
+        // fromt the original number.  When number turns negative
+        // we found the category to recommend
+        var marketPlaceCats = JSON.parse(localStorage.marketPlaceCats);
+        var random = Math.floor(Math.random() * 100);
+        for (var cat in marketPlaceCats) {
+          var weight=marketPlaceCats[cat];
+          random -= weight;
+          if (random < 0) {
+            return cat;
+          }
+        } // end of for
+      } // end of if
+    } // end of try
+    catch (ex) {
+      console.log( "Error: " + ex );
+    }
+
+    // whatever went wrong, simply return
+    // a market place category at random
+    var random = Math.floor(Math.random() * gMarketPlaceCats.length);
+    return gMarketPlaceCats[random];
   }
 
   // Load recommendations and insert one into the DOM. The previous
@@ -163,7 +246,9 @@ define(function(require) {
       // Get all apps installed and insert recently installed ones into empty
       // squares.
       Apps.getAll(function(results) {
-        var request = new Request('/recommendations.json?categories=Games', updateRecommendations);
+        var recommendedCat = recommnedMarketPlaceCategory();
+        console.log('Category Recommendation', recommendedCat);
+        var request = new Request('/recommendations.json?categories=' + recommendedCat, updateRecommendations);
 
         // Reverse stuff to show newest apps first.
         results.reverse();
