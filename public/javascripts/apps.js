@@ -96,7 +96,7 @@ define(function(require, exports, module) {
   function wrapRecommendation(app) {
     return {
       appObject: app,
-      imageURL: app.icon_url,
+      imageURL: app.icon_url_128 || '/images/openbox.png',
       name: app.name,
       recommendation: true,
       url: app.absolute_url
